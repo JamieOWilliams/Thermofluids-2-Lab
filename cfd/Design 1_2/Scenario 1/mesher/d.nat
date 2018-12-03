@@ -1,0 +1,600 @@
+22400 0 2 2           
+6 SimASM 20 ASM 224.0.1.65535 NT 24 Sat Dec  1 22:03:54 2018 
+10 9.999999999999999547e-07 1.000000000000000036e-10 
+asmheader $-1 -1 @13 224.0.1.65535 #
+body $2 -1 $-1 $3 $-1 $4 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $5 $-1 $1 copy keep_all ignore copy @11 SimCompName @31 RecTubeNewTappingChamfer.cfdsmt #
+lump $6 -1 $-1 $-1 $7 $1 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+DXID-attrib $-1 -1 $8 $2 $1 @19 ATF Occurrence Path @42 <N/A>_@OPS@_<N/A>_@OPS@_Part1_@OPS@_Solid1 #
+cell_ptr-ct-attrib $-1 -1 $-1 $-1 $3 $9 $-1 auto #
+shell $-1 -1 $-1 $-1 $-1 $10 $-1 $3 #
+rgb_color-st-attrib $-1 -1 $11 $5 $1 0.7490196078431372584 0.7490196078431372584 0.7490196078431372584 #
+cell3d-cell $12 -1 $-1 $3 $-1 1 $13 #
+face $14 -1 $-1 $15 $16 $7 $-1 $17 forward single #
+DXID-attrib $-1 -1 $-1 $8 $1 @10 ASM ENTITY @114 RECTUBENEWTAPPINGCHAMFER.IPT|:|8E31053B0D558C555262C5E411E37B42F8ADF00D|:|DA4B9237BACCCDF19C0760CAB7AEC4A8359010B0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $9 lose lose ignore lose @6 GS_tag 1 #
+cshell $-1 -1 $-1 $18 $9 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $19 $-1 $10 lose lose ignore lose @6 GS_tag 22 #
+face $20 -1 $-1 $21 $22 $7 $-1 $23 reversed single #
+loop $-1 -1 $-1 $24 $25 $10 #
+cone-surface $-1 -1 $-1 0 -2.649999999999999911 -3.75 0 1 0 -0.499999999999999889 0 0 1 I I -0.7071067811865476838 -0.7071067811865472397 0.499999999999999889 forward I I I I #
+cface $-1 -1 $26 $13 $27 0 #
+cface_ptr-ct-attrib $-1 -1 $28 $14 $10 $-1 $29 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $30 $-1 $15 lose lose ignore lose @6 GS_tag 21 #
+face $31 -1 $-1 $32 $33 $7 $-1 $34 reversed single #
+loop $-1 -1 $-1 $35 $36 $15 #
+cone-surface $-1 -1 $-1 0 -3 -3.75 0 1 0 -0.3499999999999998668 0 0 1 I I 0 1 0.3499999999999998668 forward I I I I #
+loop $-1 -1 $-1 $-1 $37 $10 #
+coedge $-1 -1 $-1 $25 $25 $38 $39 forward $16 0 $-1 #
+cface $-1 -1 $40 $13 $41 0 #
+face $42 -1 $-1 $43 $44 $7 $-1 $45 forward single #
+DXID-attrib $-1 -1 $-1 $19 $10 @10 ASM ENTITY @36 768283bf-44bd-463b-9314-14c34ffa4bb3 #
+cface $-1 -1 $-1 $13 $10 0 #
+cface_ptr-ct-attrib $-1 -1 $46 $20 $15 $-1 $47 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $48 $-1 $21 lose lose ignore lose @6 GS_tag 20 #
+face $49 -1 $-1 $50 $51 $7 $-1 $52 forward single #
+loop $-1 -1 $-1 $53 $54 $21 #
+plane-surface $-1 -1 $-1 5 -2.5 0 0 -1 0 -1 -0 -0 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $38 $15 #
+coedge $-1 -1 $-1 $36 $36 $55 $56 reversed $22 0 $-1 #
+coedge $-1 -1 $-1 $37 $37 $57 $58 forward $24 0 $-1 #
+coedge $-1 -1 $-1 $38 $38 $25 $39 reversed $35 0 $-1 #
+edge $59 -1 $-1 $60 -3.141592653589793116 $60 3.141592653589793116 $38 $61 forward @7 unknown #
+cface $-1 -1 $62 $13 $63 0 #
+face $64 -1 $-1 $63 $65 $7 $-1 $66 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $67 $-1 $27 lose lose ignore lose @6 GS_tag 1 #
+face $68 -1 $-1 $69 $70 $7 $-1 $71 forward single #
+loop $-1 -1 $-1 $-1 $72 $27 #
+cone-surface $-1 -1 $-1 0 10 -7.5 1 0 0 0 -7 0 1 I I 0 -1 7 forward I I I I #
+DXID-attrib $-1 -1 $-1 $30 $15 @10 ASM ENTITY @36 52be35a7-d694-438b-a4e7-463c3ad42ac6 #
+cface $-1 -1 $29 $13 $15 0 #
+cface_ptr-ct-attrib $-1 -1 $73 $31 $21 $-1 $74 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $75 $-1 $32 lose lose ignore lose @6 GS_tag 14 #
+face $76 -1 $-1 $77 $78 $7 $-1 $79 reversed single #
+loop $-1 -1 $-1 $80 $81 $32 #
+cone-surface $-1 -1 $-1 0 -3 -3.75 0 -1 0 -0.5000000000000003331 0 -0 1 I I 0 1 0.5000000000000003331 forward I I I I #
+loop $-1 -1 $-1 $-1 $57 $21 #
+coedge $-1 -1 $-1 $82 $83 $84 $85 reversed $33 0 $-1 #
+coedge $-1 -1 $-1 $55 $55 $36 $56 forward $86 0 $-1 #
+edge $87 -1 $-1 $88 -3.141592653589793116 $88 3.141592653589793116 $55 $89 forward @7 unknown #
+coedge $-1 -1 $-1 $57 $57 $37 $58 reversed $53 0 $-1 #
+edge $90 -1 $-1 $91 -3.141592653589793116 $91 3.141592653589793116 $57 $92 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $39 lose lose ignore lose @6 GS_tag 53 #
+vertex $93 -1 $-1 $39 0 $94 #
+ellipse-curve $-1 -1 $-1 0 -2.799999999999999822 -3.75 0 -1 0 -0.3499999999999998668 0 0 1 I I #
+cface $-1 -1 $95 $13 $43 0 #
+face $96 -1 $-1 $27 $97 $7 $-1 $98 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $99 $-1 $41 lose lose ignore lose @6 GS_tag 2 #
+loop $-1 -1 $-1 $-1 $100 $41 #
+plane-surface $-1 -1 $-1 -5.5 10 -14.5 0 0 1 1 0 0 forward_v I I I I #
+cface_ptr-ct-attrib $-1 -1 $101 $42 $27 $-1 $18 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $102 $-1 $43 lose lose ignore lose @6 GS_tag 4 #
+face $103 -1 $-1 $104 $105 $7 $-1 $106 forward single #
+loop $-1 -1 $-1 $-1 $107 $43 #
+cone-surface $-1 -1 $-1 0 10 -7.5 1 0 0 0 -13 0 1 I I 0 1 13 forward I I I I #
+coedge $-1 -1 $-1 $108 $109 $110 $111 forward $44 0 $-1 #
+DXID-attrib $-1 -1 $-1 $48 $21 @10 ASM ENTITY @36 3f8fa754-af05-4ac4-aa7e-f3c5a26c99e1 #
+cface $-1 -1 $47 $13 $21 0 #
+cface_ptr-ct-attrib $-1 -1 $112 $49 $32 $-1 $113 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $114 $-1 $50 lose lose ignore lose @6 GS_tag 19 #
+face $115 -1 $-1 $116 $117 $7 $-1 $118 reversed single #
+loop $-1 -1 $-1 $86 $119 $50 #
+plane-surface $-1 -1 $-1 -2.360641207353323915e-17 -3.999999999999999556 -3.75 0 1 0 0 0 1 forward_v I I I I #
+loop $-1 -1 $-1 $-1 $120 $32 #
+coedge $-1 -1 $-1 $81 $81 $119 $121 reversed $51 0 $-1 #
+coedge $-1 -1 $-1 $122 $54 $123 $124 forward $33 0 $-1 #
+coedge $-1 -1 $-1 $54 $122 $125 $126 reversed $33 0 $-1 #
+coedge $-1 -1 $-1 $127 $128 $54 $85 forward $129 0 $-1 #
+edge $130 -1 $-1 $131 -2.5 $132 7.5 $84 $133 forward @7 unknown #
+loop $-1 -1 $-1 $-1 $55 $50 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $56 lose lose ignore lose @6 GS_tag 51 #
+vertex $134 -1 $-1 $56 0 $135 #
+ellipse-curve $-1 -1 $-1 0 -3.999999999999999556 -3.75 0 1 0 -0.3499999999999998668 0 -0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $58 lose lose ignore lose @6 GS_tag 52 #
+vertex $136 -1 $-1 $58 0 $137 #
+ellipse-curve $-1 -1 $-1 0 -2.5 -3.75 -0 1 -0 -0.6499999999999999112 0 0 1 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $138 $-1 $60 lose lose ignore lose @6 GS_tag 37 #
+point $-1 -1 $-1 0.3499999999999998668 -2.799999999999999822 -3.75 #
+cface $-1 -1 $139 $13 $116 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $140 $-1 $63 lose lose ignore lose @6 GS_tag 3 #
+loop $-1 -1 $-1 $-1 $141 $63 #
+plane-surface $-1 -1 $-1 5.5 10 -20.5 0 0 -1 -1 0 -0 forward_v I I I I #
+cface_ptr-ct-attrib $-1 -1 $142 $64 $41 $-1 $26 #
+coedge $-1 -1 $-1 $143 $144 $145 $146 forward $65 0 $-1 #
+DXID-attrib $-1 -1 $-1 $67 $27 @10 ASM ENTITY @36 5c7b45bb-c0af-48fb-9cf8-7978a6162759 #
+cface_ptr-ct-attrib $-1 -1 $147 $68 $43 $-1 $62 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $148 $-1 $69 lose lose ignore lose @6 GS_tag 12 #
+face $149 -1 $-1 $150 $151 $7 $-1 $152 forward single #
+loop $-1 -1 $-1 $-1 $153 $69 #
+plane-surface $-1 -1 $-1 5.5 3 0 1 -0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $154 $155 $156 $157 forward $70 0 $-1 #
+coedge $-1 -1 $-1 $145 $72 $158 $159 forward $44 0 $-1 #
+coedge $-1 -1 $-1 $72 $145 $160 $161 reversed $44 0 $-1 #
+coedge $-1 -1 $-1 $162 $163 $72 $111 reversed $151 0 $-1 #
+edge $164 -1 $-1 $165 -11 $166 -0 $110 $167 forward @7 tangent #
+DXID-attrib $-1 -1 $-1 $75 $32 @10 ASM ENTITY @36 fdbf40d9-2cc3-4e77-8d4c-ef847afc18f0 #
+cface $-1 -1 $168 $13 $32 0 #
+cface_ptr-ct-attrib $-1 -1 $169 $76 $50 $-1 $170 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $171 $-1 $77 lose lose ignore lose @6 GS_tag 7 #
+face $172 -1 $-1 $173 $174 $7 $-1 $175 reversed single #
+loop $-1 -1 $-1 $-1 $176 $77 #
+plane-surface $-1 -1 $-1 -5 10 -15 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $119 $119 $81 $121 forward $78 0 $-1 #
+coedge $-1 -1 $-1 $120 $120 $177 $178 reversed $80 0 $-1 #
+edge $179 -1 $-1 $180 -3.141592653589793116 $180 3.141592653589793116 $81 $181 forward @7 unknown #
+coedge $-1 -1 $-1 $83 $82 $182 $183 forward $33 0 $-1 #
+coedge $-1 -1 $-1 $184 $185 $82 $124 reversed $186 0 $-1 #
+edge $187 -1 $-1 $131 0 $188 7.5 $82 $189 forward @7 unknown #
+coedge $-1 -1 $-1 $190 $191 $83 $126 forward $192 0 $-1 #
+edge $193 -1 $-1 $132 0 $194 7.5 $83 $195 forward @7 unknown #
+coedge $-1 -1 $-1 $196 $84 $191 $197 forward $129 0 $-1 #
+coedge $-1 -1 $-1 $84 $196 $184 $198 forward $129 0 $-1 #
+loop $-1 -1 $-1 $-1 $128 $199 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $85 lose lose ignore lose @6 GS_tag 50 #
+vertex $200 -1 $-1 $85 0 $201 #
+vertex $202 -1 $-1 $85 1 $203 #
+straight-curve $-1 -1 $-1 2.5 -2.5 0 -1 0 0 F -2.5 F 7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $204 $-1 $88 lose lose ignore lose @6 GS_tag 35 #
+point $-1 -1 $-1 0.3499999999999998668 -4 -3.75 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $91 lose lose ignore lose @6 GS_tag 36 #
+point $-1 -1 $-1 0.6499999999999999112 -2.5 -3.75 #
+no_merge_attribute-st-attrib $-1 -1 $-1 $93 $60 #
+cface $-1 -1 $205 $13 $206 0 #
+cface_ptr-ct-attrib $-1 -1 $207 $96 $63 $-1 $40 #
+coedge $-1 -1 $-1 $208 $209 $210 $211 forward $97 0 $-1 #
+DXID-attrib $-1 -1 $-1 $99 $41 @10 ASM ENTITY @36 46cfa0bd-12fb-4fdb-a187-46b915198375 #
+coedge $-1 -1 $-1 $212 $100 $213 $214 forward $65 0 $-1 #
+coedge $-1 -1 $-1 $100 $212 $215 $216 reversed $65 0 $-1 #
+coedge $-1 -1 $-1 $109 $108 $100 $146 reversed $44 0 $-1 #
+edge $217 -1 $-1 $218 -11 $219 -0 $145 $220 forward @7 tangent #
+DXID-attrib $-1 -1 $-1 $102 $43 @10 ASM ENTITY @36 55194d97-1269-4c98-b044-aac87a26d101 #
+cface_ptr-ct-attrib $-1 -1 $221 $103 $69 $-1 $222 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $223 $-1 $104 lose lose ignore lose @6 GS_tag 11 #
+face $224 -1 $-1 $225 $226 $7 $-1 $227 forward single #
+loop $-1 -1 $-1 $-1 $228 $104 #
+plane-surface $-1 -1 $-1 -5.5 3 0 0 1 0 1 -0 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $229 $230 $231 $232 reversed $105 0 $-1 #
+coedge $-1 -1 $-1 $210 $107 $233 $234 forward $70 0 $-1 #
+coedge $-1 -1 $-1 $107 $210 $235 $236 reversed $70 0 $-1 #
+coedge $-1 -1 $-1 $237 $238 $107 $157 reversed $239 0 $-1 #
+edge $240 -1 $-1 $241 -11 $242 -0 $156 $243 forward @7 tangent #
+coedge $-1 -1 $-1 $230 $213 $108 $159 reversed $105 0 $-1 #
+edge $244 -1 $-1 $166 0 $219 1.57079632679489678 $108 $245 forward @7 unknown #
+coedge $-1 -1 $-1 $215 $246 $109 $161 forward $226 0 $-1 #
+edge $247 -1 $-1 $165 0 $218 1.57079632679489678 $160 $248 forward @7 unknown #
+coedge $-1 -1 $-1 $228 $110 $246 $249 reversed $151 0 $-1 #
+coedge $-1 -1 $-1 $110 $228 $230 $250 forward $151 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $251 $-1 $111 lose lose ignore lose @6 GS_tag 1 #
+vertex $252 -1 $-1 $111 0 $253 #
+vertex $254 -1 $-1 $111 1 $255 #
+straight-curve $-1 -1 $-1 5.5 3 -7.5 1 0 0 F -11 F -0 #
+cface $-1 -1 $256 $13 $257 0 #
+DXID-attrib $-1 -1 $-1 $114 $50 @10 ASM ENTITY @36 6650f381-279d-4494-ac97-dba5054cabef #
+cface $-1 -1 $74 $13 $50 0 #
+cface_ptr-ct-attrib $-1 -1 $258 $115 $77 $-1 $205 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $259 $-1 $116 lose lose ignore lose @6 GS_tag 5 #
+face $260 -1 $-1 $261 $262 $7 $-1 $263 reversed single #
+loop $-1 -1 $-1 $-1 $264 $116 #
+plane-surface $-1 -1 $-1 5 10 -20 0 0 -1 -1 0 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $265 $266 $267 $268 reversed $117 0 $-1 #
+coedge $-1 -1 $-1 $177 $177 $120 $178 forward $269 0 $-1 #
+edge $270 -1 $-1 $271 -3.141592653589793116 $271 3.141592653589793116 $177 $272 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $273 $-1 $121 lose lose ignore lose @6 GS_tag 42 #
+vertex $274 -1 $-1 $121 0 $275 #
+ellipse-curve $-1 -1 $-1 0 -4 -3.75 -0 -1 -0 -0.5000000000000003331 -0 -0 1 I I #
+coedge $-1 -1 $-1 $276 $277 $122 $183 reversed $278 0 $-1 #
+edge $279 -1 $-1 $188 -10 $194 -0 $122 $280 forward @7 tangent #
+coedge $-1 -1 $-1 $281 $123 $128 $198 reversed $186 0 $-1 #
+coedge $-1 -1 $-1 $123 $282 $276 $283 reversed $186 0 $-1 #
+loop $-1 -1 $-1 $-1 $184 $284 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $285 $-1 $124 lose lose ignore lose @6 GS_tag 49 #
+vertex $286 -1 $-1 $124 1 $287 #
+straight-curve $-1 -1 $-1 5 -2.5 0 0 0 -1 F 0 F 7.5 #
+coedge $-1 -1 $-1 $288 $125 $277 $289 forward $192 0 $-1 #
+coedge $-1 -1 $-1 $125 $290 $127 $197 reversed $192 0 $-1 #
+loop $-1 -1 $-1 $-1 $191 $257 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $291 $-1 $126 lose lose ignore lose @6 GS_tag 44 #
+vertex $292 -1 $-1 $183 1 $293 #
+straight-curve $-1 -1 $-1 -5 -2.5 0 0 0 -1 F 0 F 7.5 #
+coedge $-1 -1 $-1 $128 $127 $294 $295 forward $129 0 $-1 #
+edge $296 -1 $-1 $132 -1.25 $297 3.75 $127 $298 forward @7 unknown #
+edge $299 -1 $-1 $300 -1.25 $131 3.75 $128 $301 forward @7 unknown #
+face $302 -1 $-1 $-1 $303 $7 $-1 $304 forward single #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $131 lose lose ignore lose @6 GS_tag 34 #
+point $-1 -1 $-1 5 -2.5 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $132 lose lose ignore lose @6 GS_tag 31 #
+point $-1 -1 $-1 -5 -2.5 0 #
+no_merge_attribute-st-attrib $-1 -1 $-1 $134 $88 #
+cface $-1 -1 $305 $13 $77 0 #
+face $306 -1 $-1 $199 $307 $7 $-1 $308 reversed single #
+DXID-attrib $-1 -1 $-1 $140 $63 @10 ASM ENTITY @36 bab53c51-2d0a-4871-88d9-5794ce38dc22 #
+coedge $-1 -1 $-1 $309 $141 $310 $311 forward $97 0 $-1 #
+coedge $-1 -1 $-1 $141 $309 $312 $313 reversed $97 0 $-1 #
+coedge $-1 -1 $-1 $155 $154 $141 $211 reversed $70 0 $-1 #
+edge $314 -1 $-1 $315 -11 $316 -0 $210 $317 forward @7 tangent #
+coedge $-1 -1 $-1 $144 $143 $318 $319 reversed $65 0 $-1 #
+coedge $-1 -1 $-1 $158 $320 $143 $214 reversed $105 0 $-1 #
+edge $321 -1 $-1 $219 0 $322 5 $143 $323 forward @7 unknown #
+coedge $-1 -1 $-1 $324 $160 $144 $216 forward $226 0 $-1 #
+edge $325 -1 $-1 $218 0 $326 5 $215 $327 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $328 $-1 $146 lose lose ignore lose @6 GS_tag 3 #
+vertex $329 -1 $-1 $146 0 $330 #
+vertex $331 -1 $-1 $146 1 $332 #
+straight-curve $-1 -1 $-1 5.5 10 -14.5 1 0 0 F -11 F -0 #
+DXID-attrib $-1 -1 $-1 $148 $69 @10 ASM ENTITY @36 03a61caa-a47a-4d4f-97a5-07cc99c015ef #
+cface $-1 -1 $333 $13 $69 0 #
+cface_ptr-ct-attrib $-1 -1 $334 $149 $104 $-1 $335 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $336 $-1 $150 lose lose ignore lose @6 GS_tag 10 #
+face $337 -1 $-1 $206 $239 $7 $-1 $338 forward single #
+loop $-1 -1 $-1 $-1 $339 $150 #
+plane-surface $-1 -1 $-1 -5.5 -3 0 -1 -0 -0 -0 1 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $163 $162 $340 $341 reversed $151 0 $-1 #
+coedge $-1 -1 $-1 $235 $153 $237 $342 forward $105 0 $-1 #
+coedge $-1 -1 $-1 $153 $158 $163 $250 reversed $105 0 $-1 #
+coedge $-1 -1 $-1 $340 $343 $153 $232 forward $303 0 $-1 #
+edge $344 -1 $-1 $345 0 $346 6 $153 $347 forward @7 unknown #
+coedge $-1 -1 $-1 $348 $310 $154 $234 reversed $226 0 $-1 #
+edge $349 -1 $-1 $242 -1.867126402889967905e-32 $316 1.570796326794896114 $154 $350 forward @7 unknown #
+coedge $-1 -1 $-1 $312 $229 $155 $236 forward $105 0 $-1 #
+edge $351 -1 $-1 $241 -1.867126402889967905e-32 $315 1.570796326794896114 $155 $352 forward @7 unknown #
+coedge $-1 -1 $-1 $353 $156 $229 $342 reversed $239 0 $-1 #
+coedge $-1 -1 $-1 $156 $353 $348 $354 forward $239 0 $-1 #
+loop $-1 -1 $-1 $269 $353 $225 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $355 $-1 $157 lose lose ignore lose @6 GS_tag 12 #
+vertex $356 -1 $-1 $157 0 $357 #
+vertex $358 -1 $-1 $157 1 $359 #
+straight-curve $-1 -1 $-1 -5.5 -3 -7.5 -1 -0 -0 F -11 F -0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $360 $-1 $159 lose lose ignore lose @6 GS_tag 2 #
+ellipse-curve $-1 -1 $-1 5.499999999999998224 10 -7.500000000000001776 1 3.063217695210206609e-16 3.063217695210206609e-16 1.776356839400250465e-15 -7 1.776356839400250465e-15 1 F 0 F 1.57079632679489678 #
+coedge $-1 -1 $-1 $160 $339 $162 $249 forward $226 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $361 $-1 $161 lose lose ignore lose @6 GS_tag 4 #
+ellipse-curve $-1 -1 $-1 -5.499999999999998224 10 -7.500000000000001776 1 -3.063217695210206609e-16 -3.063217695210206609e-16 -1.776356839400250465e-15 -7 1.776356839400250465e-15 1 F 0 F 1.57079632679489678 #
+edge $362 -1 $-1 $363 0 $165 7.5 $246 $364 forward @7 unknown #
+edge $365 -1 $-1 $346 0 $166 7.5 $163 $366 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $164 $111 @10 ASM ENTITY @36 a74d55c2-2fdf-4444-b990-61c18156a011 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $165 lose lose ignore lose @6 GS_tag 1 #
+point $-1 -1 $-1 -5.5 3 -7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $166 lose lose ignore lose @6 GS_tag 2 #
+point $-1 -1 $-1 5.5 3 -7.5 #
+cface $-1 -1 $367 $13 $261 0 #
+face $368 -1 $-1 $41 $192 $7 $-1 $369 reversed single #
+DXID-attrib $-1 -1 $-1 $171 $77 @10 ASM ENTITY @36 7d37bb69-9dab-4a63-9e16-9d645da59c90 #
+cface_ptr-ct-attrib $-1 -1 $370 $172 $116 $-1 $95 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $371 $-1 $173 lose lose ignore lose @6 GS_tag 8 #
+face $372 -1 $-1 $284 $278 $7 $-1 $373 reversed single #
+loop $-1 -1 $-1 $-1 $374 $173 #
+cone-surface $-1 -1 $-1 0 10 -7.5 1 0 0 0 -7.5 0 1 I I 0 -1 7.5 forward I I I I #
+coedge $-1 -1 $-1 $375 $376 $377 $378 reversed $174 0 $-1 #
+coedge $-1 -1 $-1 $379 $176 $380 $381 forward $117 0 $-1 #
+coedge $-1 -1 $-1 $176 $379 $382 $383 reversed $117 0 $-1 #
+coedge $-1 -1 $-1 $384 $385 $176 $268 forward $262 0 $-1 #
+edge $386 -1 $-1 $387 -10 $388 -0 $267 $389 forward @7 tangent #
+loop $-1 -1 $-1 $-1 $177 $225 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $178 lose lose ignore lose @6 GS_tag 41 #
+vertex $390 -1 $-1 $178 0 $391 #
+ellipse-curve $-1 -1 $-1 0 -3 -3.75 -0 1 -0 -0.5000000000000003331 0 -0 1 I I #
+DXID-attrib $-1 -1 $-1 $179 $121 @10 ASM ENTITY @36 638107d0-1b75-4ce9-aa98-1a7fd75910da #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $392 $-1 $180 lose lose ignore lose @6 GS_tag 30 #
+point $-1 -1 $-1 0.5000000000000003331 -4 -3.75 #
+coedge $-1 -1 $-1 $377 $182 $185 $283 forward $278 0 $-1 #
+coedge $-1 -1 $-1 $182 $377 $190 $289 reversed $278 0 $-1 #
+loop $-1 -1 $-1 $-1 $182 $261 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $393 $-1 $183 lose lose ignore lose @6 GS_tag 46 #
+straight-curve $-1 -1 $-1 -5 -2.5 -7.5 -1 -0 -0 F -10 F -0 #
+coedge $-1 -1 $-1 $394 $184 $395 $396 forward $186 0 $-1 #
+coedge $-1 -1 $-1 $185 $397 $375 $398 reversed $186 0 $-1 #
+edge $399 -1 $-1 $188 -2.019483917365790866e-32 $400 1.570796326794897002 $276 $401 forward @7 unknown #
+face $402 -1 $-1 $403 $186 $7 $-1 $404 reversed single #
+DXID-attrib $-1 -1 $-1 $187 $124 @10 ASM ENTITY @36 b7cbf2eb-6a72-48de-9a57-d2122e990dc7 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $188 lose lose ignore lose @6 GS_tag 33 #
+point $-1 -1 $-1 5 -2.5 -7.5 #
+coedge $-1 -1 $-1 $405 $190 $376 $406 forward $192 0 $-1 #
+edge $407 -1 $-1 $194 -2.019483917365790866e-32 $408 1.570796326794897002 $277 $409 forward @7 unknown #
+coedge $-1 -1 $-1 $191 $410 $411 $412 reversed $192 0 $-1 #
+DXID-attrib $-1 -1 $-1 $193 $126 @10 ASM ENTITY @36 a02bd43d-79c8-4b84-88d3-63bb4ba3ed1e #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $194 lose lose ignore lose @6 GS_tag 32 #
+point $-1 -1 $-1 -5 -2.5 -7.5 #
+coedge $-1 -1 $-1 $411 $395 $196 $295 reversed $413 0 $-1 #
+edge $414 -1 $-1 $297 -2.5 $300 7.5 $196 $415 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $197 lose lose ignore lose @6 GS_tag 43 #
+vertex $416 -1 $-1 $295 0 $417 #
+straight-curve $-1 -1 $-1 -5 -1.25 0 0 1 0 F -1.25 F 3.75 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $198 lose lose ignore lose @6 GS_tag 48 #
+vertex $418 -1 $-1 $198 0 $419 #
+straight-curve $-1 -1 $-1 5 1.25 0 -0 -1 0 F -1.25 F 3.75 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $420 $-1 $199 lose lose ignore lose @6 GS_tag 18 #
+loop $-1 -1 $-1 $129 $343 $199 #
+plane-surface $-1 -1 $-1 0 0 0 0 0 1 1 0 0 forward_v I I I I #
+cface $-1 -1 $421 $13 $173 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $422 $-1 $206 lose lose ignore lose @6 GS_tag 6 #
+loop $-1 -1 $-1 $423 $424 $206 #
+plane-surface $-1 -1 $-1 0 15 -17.5 0 -1 6.123233995736766036e-17 1 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $209 $208 $424 $425 reversed $97 0 $-1 #
+coedge $-1 -1 $-1 $233 $324 $208 $311 reversed $226 0 $-1 #
+edge $426 -1 $-1 $316 0 $427 5 $208 $428 forward @7 unknown #
+coedge $-1 -1 $-1 $320 $235 $209 $313 forward $105 0 $-1 #
+edge $429 -1 $-1 $315 0 $430 5 $209 $431 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $432 $-1 $211 lose lose ignore lose @6 GS_tag 8 #
+vertex $433 -1 $-1 $211 0 $434 #
+vertex $435 -1 $-1 $211 1 $436 #
+straight-curve $-1 -1 $-1 -5.5 10 -20.5 -1 0 -0 F -11 F -0 #
+coedge $-1 -1 $-1 $437 $438 $212 $319 forward $307 0 $-1 #
+edge $439 -1 $-1 $326 -11 $322 -0 $212 $440 forward @7 unknown #
+coedge $-1 -1 $-1 $213 $312 $437 $441 reversed $105 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $442 $-1 $214 lose lose ignore lose @6 GS_tag 5 #
+vertex $443 -1 $-1 $214 1 $444 #
+straight-curve $-1 -1 $-1 5.5 10 -14.5 0 1 0 F 0 F 5 #
+coedge $-1 -1 $-1 $310 $215 $438 $445 reversed $226 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $446 $-1 $216 lose lose ignore lose @6 GS_tag 7 #
+vertex $447 -1 $-1 $319 0 $448 #
+straight-curve $-1 -1 $-1 -5.5 10 -14.5 0 1 0 F 0 F 5 #
+DXID-attrib $-1 -1 $-1 $217 $146 @10 ASM ENTITY @36 1e4bd216-a6b5-44e5-b366-495d22973ecc #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $218 lose lose ignore lose @6 GS_tag 4 #
+point $-1 -1 $-1 -5.5 10 -14.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $219 lose lose ignore lose @6 GS_tag 3 #
+point $-1 -1 $-1 5.5 10 -14.5 #
+cface $-1 -1 $113 $13 $225 0 #
+DXID-attrib $-1 -1 $-1 $223 $104 @10 ASM ENTITY @36 d81df65b-4ae5-4c0a-892b-bfe5914723a0 #
+cface $-1 -1 $222 $13 $104 0 #
+cface_ptr-ct-attrib $-1 -1 $449 $224 $150 $-1 $450 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $451 $-1 $225 lose lose ignore lose @6 GS_tag 13 #
+plane-surface $-1 -1 $-1 5.5 -3 0 0 -1 0 -1 -0 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $246 $348 $452 $453 reversed $226 0 $-1 #
+coedge $-1 -1 $-1 $452 $231 $228 $341 forward $303 0 $-1 #
+edge $454 -1 $-1 $346 0 $363 11 $228 $455 forward @7 unknown #
+edge $456 -1 $-1 $345 0 $241 7.5 $237 $457 forward @7 unknown #
+coedge $-1 -1 $-1 $231 $452 $353 $458 forward $303 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $459 $-1 $232 lose lose ignore lose @6 GS_tag 38 #
+vertex $460 -1 $-1 $232 0 $461 #
+vertex $462 -1 $-1 $232 1 $463 #
+straight-curve $-1 -1 $-1 5.5 -3 0 0 1 0 F 0 F 6 #
+coedge $-1 -1 $-1 $339 $233 $238 $354 reversed $226 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $464 $-1 $234 lose lose ignore lose @6 GS_tag 13 #
+ellipse-curve $-1 -1 $-1 -5.499999999999998224 10.00000000000000355 -7.499999999999998224 1 -1.649424912805496435e-16 -1.649424912805496435e-16 -1.776356839400250465e-15 -13.00000000000000355 -1.776356839400250465e-15 1 F -1.867126402889967905e-32 F 1.570796326794896114 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $465 $-1 $236 lose lose ignore lose @6 GS_tag 14 #
+ellipse-curve $-1 -1 $-1 5.499999999999998224 10.00000000000000355 -7.499999999999998224 1 1.649424912805496435e-16 1.649424912805496435e-16 1.776356839400250465e-15 -13.00000000000000355 -1.776356839400250465e-15 1 F -1.867126402889967905e-32 F 1.570796326794896114 #
+coedge $-1 -1 $-1 $238 $237 $343 $458 reversed $239 0 $-1 #
+edge $466 -1 $-1 $467 0 $242 7.5 $238 $468 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $240 $157 @10 ASM ENTITY @36 0d2a8810-c2ce-4859-9896-3ed4a6360ec3 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $241 lose lose ignore lose @6 GS_tag 11 #
+point $-1 -1 $-1 5.5 -3 -7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $242 lose lose ignore lose @6 GS_tag 12 #
+point $-1 -1 $-1 -5.5 -3 -7.5 #
+DXID-attrib $-1 -1 $-1 $244 $159 @10 ASM ENTITY @36 f9eadfff-3599-4fa1-abd9-a55380b6539a #
+DXID-attrib $-1 -1 $-1 $247 $161 @10 ASM ENTITY @36 4532d0a2-3997-4874-bc78-c439139b92dd #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $469 $-1 $249 lose lose ignore lose @6 GS_tag 34 #
+vertex $470 -1 $-1 $341 1 $471 #
+straight-curve $-1 -1 $-1 -5.5 3 0 0 0 -1 F 0 F 7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $472 $-1 $250 lose lose ignore lose @6 GS_tag 37 #
+straight-curve $-1 -1 $-1 5.5 3 0 0 0 -1 F 0 F 7.5 #
+cface $-1 -1 $473 $13 $284 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $474 $-1 $257 lose lose ignore lose @6 GS_tag 15 #
+plane-surface $-1 -1 $-1 -5 -2.5 0 -1 -0 -0 -0 1 -0 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $259 $116 @10 ASM ENTITY @36 ecb2dcee-d2d8-477f-b279-afe5611eaff1 #
+cface_ptr-ct-attrib $-1 -1 $475 $260 $173 $-1 $305 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $476 $-1 $261 lose lose ignore lose @6 GS_tag 16 #
+cone-surface $-1 -1 $-1 0 10 -7.5 1 0 0 0 -12.5 0 1 I I 0 1 12.5 forward I I I I #
+coedge $-1 -1 $-1 $385 $384 $477 $478 reversed $262 0 $-1 #
+coedge $-1 -1 $-1 $479 $264 $282 $398 forward $174 0 $-1 #
+coedge $-1 -1 $-1 $264 $479 $288 $406 reversed $174 0 $-1 #
+coedge $-1 -1 $-1 $277 $276 $264 $378 forward $278 0 $-1 #
+edge $480 -1 $-1 $400 -10 $408 -0 $377 $481 forward @7 tangent #
+coedge $-1 -1 $-1 $266 $265 $482 $483 reversed $117 0 $-1 #
+coedge $-1 -1 $-1 $410 $405 $265 $381 reversed $192 0 $-1 #
+edge $484 -1 $-1 $387 0 $485 5 $380 $486 forward @7 unknown #
+coedge $-1 -1 $-1 $397 $394 $266 $383 forward $186 0 $-1 #
+edge $487 -1 $-1 $388 0 $488 5 $266 $489 forward @7 unknown #
+coedge $-1 -1 $-1 $374 $267 $394 $490 reversed $262 0 $-1 #
+coedge $-1 -1 $-1 $267 $374 $410 $491 forward $262 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $492 $-1 $268 lose lose ignore lose @6 GS_tag 24 #
+vertex $493 -1 $-1 $268 0 $494 #
+vertex $495 -1 $-1 $268 1 $496 #
+straight-curve $-1 -1 $-1 5 10 -15 1 0 0 F -10 F -0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $497 $-1 $271 lose lose ignore lose @6 GS_tag 29 #
+point $-1 -1 $-1 0.5000000000000003331 -3 -3.75 #
+no_merge_attribute-st-attrib $-1 -1 $-1 $274 $180 #
+DXID-attrib $-1 -1 $-1 $279 $183 @10 ASM ENTITY @36 c8832a4a-2c96-4ddd-89a2-d6ce06605214 #
+coedge $-1 -1 $-1 $382 $281 $384 $490 forward $186 0 $-1 #
+coedge $-1 -1 $-1 $294 $477 $281 $396 reversed $413 0 $-1 #
+edge $498 -1 $-1 $300 0 $499 7.5 $395 $500 forward @7 unknown #
+coedge $-1 -1 $-1 $282 $382 $501 $502 reversed $186 0 $-1 #
+edge $503 -1 $-1 $400 0 $504 5 $375 $505 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $506 $-1 $283 lose lose ignore lose @6 GS_tag 47 #
+vertex $507 -1 $-1 $378 0 $508 #
+ellipse-curve $-1 -1 $-1 4.999999999999998224 9.999999999999998224 -7.500000000000001776 1 1.715401909317716007e-16 1.715401909317716007e-16 1.776356839400250465e-15 -12.49999999999999822 1.776356839400250465e-15 1 F -2.019483917365790866e-32 F 1.570796326794897002 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $509 $-1 $284 lose lose ignore lose @6 GS_tag 17 #
+face $510 -1 $-1 $257 $413 $7 $-1 $511 reversed single #
+plane-surface $-1 -1 $-1 5 2.5 0 1 -0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $380 $288 $512 $513 reversed $192 0 $-1 #
+edge $514 -1 $-1 $408 0 $515 5 $376 $516 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $517 $-1 $289 lose lose ignore lose @6 GS_tag 45 #
+vertex $518 -1 $-1 $378 1 $519 #
+ellipse-curve $-1 -1 $-1 -4.999999999999998224 9.999999999999998224 -7.500000000000001776 1 -1.715401909317716007e-16 -1.715401909317716007e-16 -1.776356839400250465e-15 -12.49999999999999822 1.776356839400250465e-15 1 F -2.019483917365790866e-32 F 1.570796326794897002 #
+coedge $-1 -1 $-1 $290 $380 $385 $491 reversed $192 0 $-1 #
+coedge $-1 -1 $-1 $477 $294 $290 $412 forward $413 0 $-1 #
+edge $520 -1 $-1 $297 0 $521 7.5 $290 $522 forward @7 unknown #
+loop $-1 -1 $-1 $-1 $294 $403 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $295 lose lose ignore lose @6 GS_tag 30 #
+straight-curve $-1 -1 $-1 -2.5 2.5 0 1 0 0 F -2.5 F 7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $297 lose lose ignore lose @6 GS_tag 23 #
+point $-1 -1 $-1 -5 2.5 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $300 lose lose ignore lose @6 GS_tag 24 #
+point $-1 -1 $-1 5 2.5 0 #
+cface_ptr-ct-attrib $-1 -1 $523 $302 $199 $-1 $473 #
+cface $-1 -1 $450 $13 $403 0 #
+cface_ptr-ct-attrib $-1 -1 $524 $306 $206 $-1 $139 #
+loop $-1 -1 $-1 $-1 $525 $206 #
+coedge $-1 -1 $-1 $438 $437 $309 $425 forward $307 0 $-1 #
+edge $526 -1 $-1 $430 -11 $427 -0 $309 $527 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $528 $-1 $311 lose lose ignore lose @6 GS_tag 9 #
+vertex $529 -1 $-1 $311 1 $530 #
+straight-curve $-1 -1 $-1 -5.5 10 -20.5 0 1 0 F 0 F 5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $531 $-1 $313 lose lose ignore lose @6 GS_tag 11 #
+vertex $532 -1 $-1 $425 0 $533 #
+straight-curve $-1 -1 $-1 5.5 10 -20.5 0 1 0 F 0 F 5 #
+DXID-attrib $-1 -1 $-1 $314 $211 @10 ASM ENTITY @36 5ecf112e-e7ba-4a40-82f5-5a1d13e33be8 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $315 lose lose ignore lose @6 GS_tag 7 #
+point $-1 -1 $-1 5.5 10 -20.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $316 lose lose ignore lose @6 GS_tag 8 #
+point $-1 -1 $-1 -5.5 10 -20.5 #
+coedge $-1 -1 $-1 $424 $318 $320 $441 forward $307 0 $-1 #
+coedge $-1 -1 $-1 $318 $424 $324 $445 forward $307 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $534 $-1 $319 lose lose ignore lose @6 GS_tag 6 #
+straight-curve $-1 -1 $-1 5.5 15 -14.5 1 0 0 F -11 F -0 #
+edge $535 -1 $-1 $322 -6 $430 -0 $320 $536 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $321 $214 @10 ASM ENTITY @36 95727e0b-c11f-491b-a9f4-d86cb8f0bcc6 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $322 lose lose ignore lose @6 GS_tag 5 #
+point $-1 -1 $-1 5.5 15 -14.5 #
+edge $537 -1 $-1 $427 -6 $326 -0 $324 $538 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $325 $216 @10 ASM ENTITY @36 1662f37d-5ce2-413e-9d4d-72e04f026f15 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $326 lose lose ignore lose @6 GS_tag 6 #
+point $-1 -1 $-1 -5.5 15 -14.5 #
+DXID-attrib $-1 -1 $-1 $336 $150 @10 ASM ENTITY @36 5e1784fd-2289-493c-98d1-76a37b752e60 #
+cface $-1 -1 $335 $13 $150 0 #
+cface_ptr-ct-attrib $-1 -1 $539 $337 $225 $-1 $333 #
+coedge $-1 -1 $-1 $343 $340 $339 $453 forward $303 0 $-1 #
+edge $540 -1 $-1 $363 0 $467 6 $339 $541 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $542 $-1 $341 lose lose ignore lose @6 GS_tag 36 #
+straight-curve $-1 -1 $-1 5.5 3 0 -1 0 0 F 0 F 11 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $543 $-1 $342 lose lose ignore lose @6 GS_tag 39 #
+straight-curve $-1 -1 $-1 5.5 -3 0 0 0 -1 F 0 F 7.5 #
+edge $544 -1 $-1 $467 0 $345 11 $353 $545 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $344 $232 @10 ASM ENTITY @36 b2674d37-db42-44ac-a28a-18fefb2d0598 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $345 lose lose ignore lose @6 GS_tag 28 #
+point $-1 -1 $-1 5.5 -3 0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $346 lose lose ignore lose @6 GS_tag 27 #
+point $-1 -1 $-1 5.5 3 0 #
+DXID-attrib $-1 -1 $-1 $349 $234 @10 ASM ENTITY @36 e20f98d8-7e1f-49e1-b5c0-a9d12424d02b #
+DXID-attrib $-1 -1 $-1 $351 $236 @10 ASM ENTITY @36 c5875456-9b4e-40c9-968b-977adb96f441 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $546 $-1 $354 lose lose ignore lose @6 GS_tag 35 #
+vertex $547 -1 $-1 $453 1 $548 #
+straight-curve $-1 -1 $-1 -5.5 -3 0 0 0 -1 F 0 F 7.5 #
+DXID-attrib $-1 -1 $-1 $362 $249 @10 ASM ENTITY @36 d2d2ce53-f075-4460-9bcb-20f4e5c899bf #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $363 lose lose ignore lose @6 GS_tag 25 #
+point $-1 -1 $-1 -5.5 3 0 #
+DXID-attrib $-1 -1 $-1 $365 $250 @10 ASM ENTITY @36 8b514e96-8a3d-47fc-b60d-d4b01031e9e5 #
+cface $-1 -1 $170 $13 $199 0 #
+cface_ptr-ct-attrib $-1 -1 $549 $368 $257 $-1 $168 #
+DXID-attrib $-1 -1 $-1 $371 $173 @10 ASM ENTITY @36 a6ee80f9-1186-4281-95c6-6e43dcada9fb #
+cface_ptr-ct-attrib $-1 -1 $550 $372 $261 $-1 $256 #
+coedge $-1 -1 $-1 $395 $411 $374 $478 forward $413 0 $-1 #
+edge $551 -1 $-1 $521 -10 $499 -0 $477 $552 forward @7 tangent #
+coedge $-1 -1 $-1 $376 $375 $525 $553 reversed $174 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $554 $-1 $378 lose lose ignore lose @6 GS_tag 15 #
+straight-curve $-1 -1 $-1 -5 10 -20 -1 0 -0 F -10 F -0 #
+coedge $-1 -1 $-1 $512 $501 $379 $483 forward $423 0 $-1 #
+edge $555 -1 $-1 $488 -7.5 $485 2.5 $482 $556 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $557 $-1 $381 lose lose ignore lose @6 GS_tag 25 #
+vertex $558 -1 $-1 $381 1 $559 #
+straight-curve $-1 -1 $-1 -5 10 -15 0 1 0 F 0 F 5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $560 $-1 $383 lose lose ignore lose @6 GS_tag 26 #
+vertex $561 -1 $-1 $483 0 $562 #
+straight-curve $-1 -1 $-1 5 10 -15 0 1 0 F 0 F 5 #
+edge $563 -1 $-1 $499 -1.402419387059576542e-32 $388 1.570796326794896558 $384 $564 forward @7 unknown #
+edge $565 -1 $-1 $521 -1.402419387059576542e-32 $387 1.570796326794896558 $410 $566 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $386 $268 @10 ASM ENTITY @36 eac5caf0-faf8-40b4-a629-c73e787d6815 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $387 lose lose ignore lose @6 GS_tag 19 #
+point $-1 -1 $-1 -5 10 -15 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $388 lose lose ignore lose @6 GS_tag 20 #
+point $-1 -1 $-1 5 10 -15 #
+no_merge_attribute-st-attrib $-1 -1 $-1 $390 $271 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $567 $-1 $396 lose lose ignore lose @6 GS_tag 32 #
+vertex $568 -1 $-1 $478 1 $569 #
+straight-curve $-1 -1 $-1 5 2.5 0 0 0 -1 F 0 F 7.5 #
+coedge $-1 -1 $-1 $482 $525 $397 $502 forward $423 0 $-1 #
+edge $570 -1 $-1 $504 -11.25 $488 -6.25 $501 $571 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $572 $-1 $398 lose lose ignore lose @6 GS_tag 16 #
+vertex $573 -1 $-1 $398 1 $574 #
+straight-curve $-1 -1 $-1 5 10 -20 0 1 0 F 0 F 5 #
+DXID-attrib $-1 -1 $-1 $399 $283 @10 ASM ENTITY @36 511daa2d-0f2e-4b23-be98-cff49374b0fb #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $400 lose lose ignore lose @6 GS_tag 13 #
+point $-1 -1 $-1 5 10 -20 #
+cface_ptr-ct-attrib $-1 -1 $575 $402 $284 $-1 $367 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $576 $-1 $403 lose lose ignore lose @6 GS_tag 9 #
+plane-surface $-1 -1 $-1 -5 2.5 0 0 1 0 1 -0 -0 forward_v I I I I #
+coedge $-1 -1 $-1 $525 $482 $405 $513 forward $423 0 $-1 #
+edge $577 -1 $-1 $485 6.25 $515 11.25 $512 $578 forward @7 unknown #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $579 $-1 $406 lose lose ignore lose @6 GS_tag 18 #
+vertex $580 -1 $-1 $553 0 $581 #
+straight-curve $-1 -1 $-1 -5 10 -20 0 1 0 F 0 F 5 #
+DXID-attrib $-1 -1 $-1 $407 $289 @10 ASM ENTITY @36 36e351eb-8afc-41ac-9539-288e688c9606 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $408 lose lose ignore lose @6 GS_tag 14 #
+point $-1 -1 $-1 -5 10 -20 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $582 $-1 $412 lose lose ignore lose @6 GS_tag 31 #
+vertex $583 -1 $-1 $478 0 $584 #
+straight-curve $-1 -1 $-1 -5 2.5 0 0 0 -1 F 0 F 7.5 #
+DXID-attrib $-1 -1 $-1 $420 $199 @10 ASM ENTITY @36 af25069d-8be9-48cf-aeff-8b232acfbae4 #
+DXID-attrib $-1 -1 $-1 $422 $206 @10 ASM ENTITY @36 e638532b-e571-4c49-b114-67f9b762f083 #
+coedge $-1 -1 $-1 $501 $512 $479 $553 forward $423 0 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $585 $-1 $425 lose lose ignore lose @6 GS_tag 10 #
+straight-curve $-1 -1 $-1 -5.5 15 -20.5 -1 0 0 F -11 F -0 #
+DXID-attrib $-1 -1 $-1 $426 $311 @10 ASM ENTITY @36 28d8e931-e995-40bd-bc37-217281d1d4bd #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $427 lose lose ignore lose @6 GS_tag 9 #
+point $-1 -1 $-1 -5.5 15 -20.5 #
+DXID-attrib $-1 -1 $-1 $429 $313 @10 ASM ENTITY @36 c1506724-9a7c-4252-9730-01385b3c8e19 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $430 lose lose ignore lose @6 GS_tag 10 #
+point $-1 -1 $-1 5.5 15 -20.5 #
+DXID-attrib $-1 -1 $-1 $439 $319 @10 ASM ENTITY @36 2ea61849-eeb8-4ea3-ab67-85062efb1faa #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $586 $-1 $441 lose lose ignore lose @6 GS_tag 20 #
+straight-curve $-1 -1 $-1 5.5 15 -20.5 -0 -6.123233995736766036e-17 -1 F -6 F -0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $587 $-1 $445 lose lose ignore lose @6 GS_tag 19 #
+straight-curve $-1 -1 $-1 -5.5 15 -14.5 0 6.123233995736766036e-17 1 F -6 F -0 #
+DXID-attrib $-1 -1 $-1 $451 $225 @10 ASM ENTITY @36 83b03cbc-97fd-4412-a28f-e09b98e7ee87 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $588 $-1 $453 lose lose ignore lose @6 GS_tag 33 #
+straight-curve $-1 -1 $-1 -5.5 3 0 0 -1 0 F 0 F 6 #
+DXID-attrib $-1 -1 $-1 $454 $341 @10 ASM ENTITY @36 bd369244-8988-4d4c-b499-6583761d7d35 #
+DXID-attrib $-1 -1 $-1 $456 $342 @10 ASM ENTITY @36 655cd528-72f5-4b30-a467-d6bee9f1ee4a #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $589 $-1 $458 lose lose ignore lose @6 GS_tag 40 #
+straight-curve $-1 -1 $-1 -5.5 -3 0 1 0 0 F 0 F 11 #
+DXID-attrib $-1 -1 $-1 $466 $354 @10 ASM ENTITY @36 2c128506-487b-4efc-8b34-4f6e1bac62f9 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $467 lose lose ignore lose @6 GS_tag 26 #
+point $-1 -1 $-1 -5.5 -3 0 #
+DXID-attrib $-1 -1 $-1 $474 $257 @10 ASM ENTITY @36 1d4082dc-b790-4fd5-891d-3c77dd2587ef #
+DXID-attrib $-1 -1 $-1 $476 $261 @10 ASM ENTITY @36 389263e0-df82-4951-bb0c-4cf56d120666 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $590 $-1 $478 lose lose ignore lose @6 GS_tag 27 #
+straight-curve $-1 -1 $-1 5 2.5 -7.5 1 0 0 F -10 F -0 #
+edge $591 -1 $-1 $515 -7.5 $504 2.5 $525 $592 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $480 $378 @10 ASM ENTITY @36 8b51869f-9b03-496e-9def-5bb23f2e3bfc #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $483 lose lose ignore lose @6 GS_tag 22 #
+straight-curve $-1 -1 $-1 -2.5 15 -15 -1 0 0 F -7.5 F 2.5 #
+DXID-attrib $-1 -1 $-1 $484 $381 @10 ASM ENTITY @36 a3b2f6b5-737f-403d-aab8-11b1fc412ae0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $485 lose lose ignore lose @6 GS_tag 18 #
+point $-1 -1 $-1 -5 15 -15 #
+DXID-attrib $-1 -1 $-1 $487 $383 @10 ASM ENTITY @36 a69dec88-9dab-4de0-8c7f-6bb79800e222 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $488 lose lose ignore lose @6 GS_tag 17 #
+point $-1 -1 $-1 5 15 -15 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $593 $-1 $490 lose lose ignore lose @6 GS_tag 29 #
+ellipse-curve $-1 -1 $-1 4.999999999999998224 10 -7.499999999999999112 1 2.859003182196193427e-16 2.859003182196193427e-16 1.776356839400250465e-15 -7.5 -8.881784197001252323e-16 1 F -1.402419387059576542e-32 F 1.570796326794896558 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $594 $-1 $491 lose lose ignore lose @6 GS_tag 28 #
+ellipse-curve $-1 -1 $-1 -4.999999999999998224 10 -7.499999999999999112 1 -2.859003182196193427e-16 -2.859003182196193427e-16 -1.776356839400250465e-15 -7.5 -8.881784197001252323e-16 1 F -1.402419387059576542e-32 F 1.570796326794896558 #
+DXID-attrib $-1 -1 $-1 $498 $396 @10 ASM ENTITY @36 49b94d67-636d-494f-9ba9-b1362786f49f #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $499 lose lose ignore lose @6 GS_tag 22 #
+point $-1 -1 $-1 5 2.5 -7.5 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $502 lose lose ignore lose @6 GS_tag 21 #
+straight-curve $-1 -1 $-1 5 15 -8.75 0 6.123233995736766036e-17 1 F -11.25 F -6.25 #
+DXID-attrib $-1 -1 $-1 $503 $398 @10 ASM ENTITY @36 f5f44bb8-92cd-4a5a-8651-0714c7e2dec4 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $504 lose lose ignore lose @6 GS_tag 15 #
+point $-1 -1 $-1 5 15 -20 #
+DXID-attrib $-1 -1 $-1 $509 $284 @10 ASM ENTITY @36 9dd4fd0f-a322-43b9-ae28-659e515c1e95 #
+cface_ptr-ct-attrib $-1 -1 $595 $510 $403 $-1 $421 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $513 lose lose ignore lose @6 GS_tag 23 #
+straight-curve $-1 -1 $-1 -5 15 -8.75 0 -6.123233995736766036e-17 -1 F 6.25 F 11.25 #
+DXID-attrib $-1 -1 $-1 $514 $406 @10 ASM ENTITY @36 dd2f2b9d-06a3-4263-b820-ebd0bb7c29c0 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $515 lose lose ignore lose @6 GS_tag 16 #
+point $-1 -1 $-1 -5 15 -20 #
+DXID-attrib $-1 -1 $-1 $520 $412 @10 ASM ENTITY @36 caf520af-898d-4f6c-9a67-1cf609c0e53f #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $521 lose lose ignore lose @6 GS_tag 21 #
+point $-1 -1 $-1 -5 2.5 -7.5 #
+DXID-attrib $-1 -1 $-1 $526 $425 @10 ASM ENTITY @36 7114ed14-4e72-49d2-9bf2-5ce6ee9c594c #
+DXID-attrib $-1 -1 $-1 $535 $441 @10 ASM ENTITY @36 01c00d92-a87b-46f5-822e-1a54a9897677 #
+DXID-attrib $-1 -1 $-1 $537 $445 @10 ASM ENTITY @36 44106cc0-896e-4024-ae46-72d15aa2f760 #
+DXID-attrib $-1 -1 $-1 $540 $453 @10 ASM ENTITY @36 f5487e45-5ed1-4c3f-a959-5c39bba9c098 #
+DXID-attrib $-1 -1 $-1 $544 $458 @10 ASM ENTITY @36 a2262da7-be14-48eb-b74f-dd152e000cf7 #
+DXID-attrib $-1 -1 $-1 $551 $478 @10 ASM ENTITY @36 95e03b86-65d0-4a80-ad0a-f132ff25e9cc #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $553 lose lose ignore lose @6 GS_tag 17 #
+straight-curve $-1 -1 $-1 2.5 15 -20 1 0 0 F -7.5 F 2.5 #
+DXID-attrib $-1 -1 $-1 $563 $490 @10 ASM ENTITY @36 773caef7-520a-4abe-86fd-07269d8a9344 #
+DXID-attrib $-1 -1 $-1 $565 $491 @10 ASM ENTITY @36 cd7d6d08-6510-42f2-8a8c-f1701fd47efe #
+DXID-attrib $-1 -1 $-1 $576 $403 @10 ASM ENTITY @36 03c4e582-8698-44c2-bfb6-49020393535e #
+End-of-ASM-data 

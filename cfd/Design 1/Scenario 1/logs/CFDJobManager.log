@@ -1,0 +1,2268 @@
+[Thu 29. Nov 20:13:08 2018] Reading CPU information from SystemInfo.xml
+[Thu 29. Nov 20:13:08 2018] Processors: 1, Cores per processor: 4
+[Thu 29. Nov 20:13:08 2018] Requested cores: 0
+[Thu 29. Nov 20:13:08 2018] Using 5 ranks
+[Thu 29. Nov 20:13:08 2018] analysis path: C:\Users\mail\Desktop\Thermofluids 2 Lab\NewRectTube\Design 1\Scenario 1
+[Thu 29. Nov 20:13:08 2018] Listen on port 56196
+[Thu 29. Nov 20:13:08 2018] Email file: C:\ProgramData\Autodesk\CFD 2019\Analyze\job10/email.xml
+[Thu 29. Nov 20:13:08 2018] Start processing tasks
+[Thu 29. Nov 20:13:08 2018] Starting task: Start Messaging
+[Thu 29. Nov 20:13:08 2018] Task finished in 0.00 sec
+[Thu 29. Nov 20:13:08 2018] Starting task: Start Notifications
+[Thu 29. Nov 20:13:08 2018] Task finished in 0.00 sec
+[Thu 29. Nov 20:13:08 2018] Starting task: Run Job
+[Thu 29. Nov 20:13:08 2018] startJob
+[Thu 29. Nov 20:13:08 2018] Creating C:\ProgramData\Autodesk\CFD 2019\Analyze\job10/job.bat
+[Thu 29. Nov 20:13:08 2018] Command: cmd.exe /c job.bat
+[Thu 29. Nov 20:13:09 2018]  output:C:\ProgramData\Autodesk\CFD 2019\Analyze\job10>CD C:\Program Files\Autodesk\CFD 2019
+[Thu 29. Nov 20:13:09 2018]  output:C:\Program Files\Autodesk\CFD 2019>"C:\Program Files\Autodesk\CFD 2019\CFDMesher.exe" "C:\Users\mail\Desktop\Thermofluids 2 Lab\NewRectTube\Design 1\Scenario 1\mesher\Scenario 1" -jobId=10 -cloudJobI
+[Thu 29. Nov 20:13:09 2018]  output:d=  -gui  -useJobFile  -port=56196
+[Thu 29. Nov 20:13:10 2018] Processing mesher exited
+[Thu 29. Nov 20:13:10 2018]  output:C:\Program Files\Autodesk\CFD 2019>set E=0
+[Thu 29. Nov 20:13:10 2018]  output:C:\Program Files\Autodesk\CFD 2019>IF 0 NEQ 0 goto EOF
+[Thu 29. Nov 20:13:10 2018]  output:C:\Program Files\Autodesk\CFD 2019>"C:\Program Files\Autodesk\CFD 2019\mpiexec.exe" -n 5 "C:\Program Files\Autodesk\CFD 2019\CFDSolver.exe" "C:\Users\mail\Desktop\Thermofluids 2 Lab\NewRectTube\Desig
+[Thu 29. Nov 20:13:10 2018]  output:n 1\Scenario 1\solver\Scenario 1" -jobId=10 -cloudJobId=  -gui  -useJobFile  -port=56196 -mpi
+[Thu 29. Nov 20:13:10 2018]  output:Server = 127.0.0.1
+[Thu 29. Nov 20:13:10 2018]  output:Program Dir = C:/Program Files/Autodesk/CFD 2019
+[Thu 29. Nov 20:13:10 2018]  output:Analysis Path = C:\Users\mail\Desktop\Thermofluids 2 Lab\NewRectTube\Design 1\Scenario 1/solver
+[Thu 29. Nov 20:13:10 2018]  output:Analysis Name = Scenario 1
+[Thu 29. Nov 20:13:10 2018]  output:Master Node is:DESKTOP-7GSFCRT
+[Thu 29. Nov 20:13:10 2018]  output:Number of ranks: 5
+[Thu 29. Nov 20:13:10 2018]  output:Number of Nodes: 1
+[Thu 29. Nov 20:13:10 2018]  output:Node Names:
+[Thu 29. Nov 20:13:10 2018]  output:DESKTOP-7GSFCRT
+[Thu 29. Nov 20:13:10 2018]  output:*** CFD Screen File Output ***
+[Thu 29. Nov 20:13:10 2018]  output:CFD 2019 (2019 SP1) [20180819]
+[Thu 29. Nov 20:13:10 2018]  output:Job Name = Scenario 1   Date created: Thu Nov 29 20:13:10 2018
+[Thu 29. Nov 20:13:12 2018] Processing results ready
+[Thu 29. Nov 20:13:12 2018]  output:1 file(s) copied.
+[Thu 29. Nov 20:13:12 2018]  output:Partitioning a graph of size 2336 serially
+[Thu 29. Nov 20:13:12 2018]  output:Final 4-way CUT:    317 	Balance: 1.003   avg: 1.003
+[Thu 29. Nov 20:13:12 2018]  output:Partitioning a graph of size 1502 serially
+[Thu 29. Nov 20:13:12 2018]  output:Final 4-way CUT:    100 	Balance: 1.001   avg: 1.001
+[Thu 29. Nov 20:13:12 2018]  output:Broadcast element topology
+[Thu 29. Nov 20:13:12 2018]  output:Distributing element data
+[Thu 29. Nov 20:13:12 2018]  output:Processor 0 element parsing boundaries 584 959
+[Thu 29. Nov 20:13:12 2018]  output:Processor 1 element parsing boundaries 586 961
+[Thu 29. Nov 20:13:12 2018]  output:Processor 2 element parsing boundaries 582 958
+[Thu 29. Nov 20:13:12 2018]  output:Processor 3 element parsing boundaries 584 960
+[Thu 29. Nov 20:13:12 2018]  output:Distributing nodes
+[Thu 29. Nov 20:13:12 2018]  output:Processor 0 node parsing boundaries 255 456 532 546
+[Thu 29. Nov 20:13:12 2018]  output:Processor 1 node parsing boundaries 259 459 530 548
+[Thu 29. Nov 20:13:12 2018]  output:Processor 2 node parsing boundaries 255 461 535 548
+[Thu 29. Nov 20:13:12 2018]  output:Processor 3 node parsing boundaries 255 440 513 525
+[Thu 29. Nov 20:13:12 2018]  output:local to global mapping
+[Thu 29. Nov 20:13:12 2018]  output:Distributing field arrays
+[Thu 29. Nov 20:13:12 2018]  output:Field Vector updates
+[Thu 29. Nov 20:13:12 2018]  output:Distributing wall elements
+[Thu 29. Nov 20:13:12 2018]  output:Distributing wall node data
+[Thu 29. Nov 20:13:12 2018]  output:Distributing transient field arrays
+[Thu 29. Nov 20:13:12 2018]  output:Distributing element BC data
+[Thu 29. Nov 20:13:12 2018]  output:NumCFMSurfs                               0>>>>>>>>>1>>>>>>>>>2>>>>>>>>>3>>>>>>>>>4>>>>>>>>>5>>>>>>>>>6>>>>>>>>>7>>>>>>>>>8>>>>>>>>>9>>>>>>>>>$ 0.000784 s
+[Thu 29. Nov 20:13:12 2018]  output:NumCFMParts                               0>>>>>>>>>1>>>>>>>>>2>>>>>>>>>3>>>>>>>>>4>>>>>>>>>5>>>>>>>>>6>>>>>>>>>7>>>>>>>>>8>>>>>>>>>9>>>>>>>>>$ 0.000043 s
+[Thu 29. Nov 20:13:12 2018]  output:Set up flow matrix
+[Thu 29. Nov 20:13:12 2018]  output:Building fluid ghost node communications
+[Thu 29. Nov 20:13:12 2018]  output:Building fluid wall ghost node communications
+[Thu 29. Nov 20:13:12 2018]  output:Building fluid assembly communications
+[Thu 29. Nov 20:13:12 2018]  output:Set up thermal matrix
+[Thu 29. Nov 20:13:12 2018]  output:Building thermal ghost node communications
+[Thu 29. Nov 20:13:12 2018]  output:Building thermal assembly communications
+[Thu 29. Nov 20:13:12 2018]  output:Building off-processor buffers
+[Thu 29. Nov 20:13:12 2018]  output:Building optimal comm partners
+[Thu 29. Nov 20:13:12 2018]  output:Checking parallel mapping pointers...
+[Thu 29. Nov 20:13:12 2018]  output:Slaves report no flow mapping errors
+[Thu 29. Nov 20:13:12 2018]  output:Master reports no flow mapping errors
+[Thu 29. Nov 20:13:12 2018]  output:Slaves report no thermal mapping errors
+[Thu 29. Nov 20:13:12 2018]  output:Master reports no thermal mapping errors
+[Thu 29. Nov 20:13:12 2018]  output:Parallel Set Up required 0.074000 seconds - Total
+[Thu 29. Nov 20:13:12 2018]  output:Distributing flow length data
+[Thu 29. Nov 20:13:12 2018]  output:Setting affinity
+[Thu 29. Nov 20:13:12 2018]  output:Setting affinity
+[Thu 29. Nov 20:13:12 2018]  output:Setting affinity
+[Thu 29. Nov 20:13:12 2018]  output:Setting affinity
+[Thu 29. Nov 20:13:12 2018]  output:Ave Values = 0.000000 -98.476094 0.000000 0.000000 273.150000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:12 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:12 2018] Processing results ready
+[Thu 29. Nov 20:13:12 2018]  output:Ave Values = 0.145013 -386.442328 346.878329 13844.891454 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:12 2018]  output:Iter   V     V     V     P     T     T
+[Thu 29. Nov 20:13:12 2018]  output:1 0.00e+00 0.00e+00 0.00e+00 1.73e+01 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:12 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:12 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 6 Residual = 7.414173e-05
+[Thu 29. Nov 20:13:12 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:12 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 6 Residual = 1.682842e-01
+[Thu 29. Nov 20:13:12 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:12 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 6 Residual = 1.170125e-04
+[Thu 29. Nov 20:13:12 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = 0.170165 -314.378207 68.767913 9038.318099 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:2 2.95e+01 2.04e+04 7.25e+01 1.18e+01 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.004000 Iterations = 5 Residual = 3.681488e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 6 Residual = 3.593161e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 5 Residual = 9.424152e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = 0.145877 -426.918490 184.142509 17358.695606 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:3 5.67e+03 6.32e+04 2.90e+04 8.17e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 6 Residual = 2.496544e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 6 Residual = 8.517148e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 5 Residual = 2.591884e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = -0.081044 -541.385009 336.168108 24333.480552 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:4 7.52e+03 8.57e+04 5.47e+04 8.20e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 7 Residual = 1.453555e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 1.582683e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 5 Residual = 5.764755e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = -0.450100 -640.837993 511.044645 29568.293878 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:5 7.41e+03 9.01e+04 7.81e+04 8.79e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 7 Residual = 3.262233e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.027670e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 6 Residual = 4.133406e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = -0.860111 -719.569027 695.839591 32798.478502 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:6 6.70e+03 8.41e+04 9.80e+04 9.09e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 7 Residual = 6.134652e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 2.225808e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 2.267358e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:13 2018] Processing results ready
+[Thu 29. Nov 20:13:13 2018]  output:Ave Values = -1.197722 -779.238116 877.661542 33877.264448 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:13 2018]  output:7 6.18e+03 7.43e+04 1.12e+05 9.27e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 8 Residual = 3.298040e-02
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 10 Residual = 6.093051e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:13 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.313971e-01
+[Thu 29. Nov 20:13:13 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:14 2018]  output:Ave Values = -1.386212 -825.128779 1043.107306 32799.952301 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:14 2018]  output:8 5.97e+03 6.50e+04 1.16e+05 9.44e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.215143e-02
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.650408e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 8.092389e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:14 2018]  output:Ave Values = -1.388432 -861.014386 1175.996685 29797.524150 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:14 2018]  output:9 5.83e+03 5.80e+04 1.11e+05 9.55e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.078946e-02
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 4.213491e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 5.275548e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:14 2018]  output:Ave Values = -1.218377 -888.012997 1265.269818 25277.851769 0.000000 246.700559 1988.513014 0.000000
+[Thu 29. Nov 20:13:14 2018]  output:10 5.64e+03 5.28e+04 9.77e+04 9.40e+00 0.00e+00 0.00e+00
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.650434e-02
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.644587e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 7.218651e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 1.233634e+01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 9.192237e+02
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:14 2018]  output:Ave Values = -0.978637 -902.679293 1306.186297 19598.051622 0.000000 8815.890930 2340785.513683 0.000000
+[Thu 29. Nov 20:13:14 2018]  output:11 5.27e+03 4.72e+04 7.92e+04 9.09e+00 1.92e+06 1.88e+08
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.320888e-02
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.898940e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 2.272658e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 9.719603e+00
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 7 Residual = 3.168808e+03
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:14 2018]  output:Ave Values = -0.867083 -898.300943 1291.936414 12934.883392 0.000000 14210.499661 4071570.120054 0.000000
+[Thu 29. Nov 20:13:14 2018]  output:12 4.75e+03 3.98e+04 5.86e+04 8.90e+00 1.34e+06 3.35e+08
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.301762e-02
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.886622e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.384892e-01
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 9.965227e+00
+[Thu 29. Nov 20:13:14 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:14 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 8 Residual = 1.931252e+03
+[Thu 29. Nov 20:13:14 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -0.885786 -862.897616 1203.362556 5427.583518 0.000000 18164.521961 5315757.697351 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:13 4.24e+03 3.09e+04 3.73e+04 9.06e+00 1.28e+06 4.64e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.086333e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.198545e-01
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.077627e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:15 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.786317e+00
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 2.241849e+03
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -0.929793 -816.755737 1096.424393 408.719293 0.000000 20952.531032 6298603.418811 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:14 3.52e+03 2.20e+04 1.71e+04 8.32e+00 1.08e+06 4.59e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 8.982941e-03
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 7.621236e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 9.755309e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.225025e+00
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 2.061105e+03
+[Thu 29. Nov 20:13:15 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -0.980621 -771.090385 991.996401 -1946.078301 0.000000 22681.183187 6909861.372007 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:15 2.98e+03 1.71e+04 1.51e+04 8.09e+00 8.69e+05 3.49e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.750351e-03
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 5.609146e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 1.197286e-01
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 6.991152e+00
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 1.826806e+03
+[Thu 29. Nov 20:13:15 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -1.033260 -734.050748 905.993260 -2039.332984 0.000000 23502.882629 7051934.286475 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:16 2.61e+03 1.48e+04 1.80e+04 7.81e+00 7.03e+05 2.47e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.025020e-03
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 12 Residual = 5.106788e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 1.017570e-01
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 5.505245e+00
+[Thu 29. Nov 20:13:15 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 1.419168e+03
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -1.121387 -710.791240 849.916584 -566.275437 0.000000 23681.298373 6864202.309973 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:17 2.30e+03 1.33e+04 1.62e+04 7.09e+00 5.60e+05 2.03e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.441949e-03
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 12 Residual = 5.499429e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.611553e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.118833e+00
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 1.084860e+03
+[Thu 29. Nov 20:13:15 2018] Processing results ready
+[Thu 29. Nov 20:13:15 2018]  output:Ave Values = -1.256078 -702.955283 828.896176 1688.180532 0.000000 23524.789693 6544044.975907 0.000000
+[Thu 29. Nov 20:13:15 2018]  output:18 2.03e+03 1.23e+04 1.12e+04 6.08e+00 4.22e+05 1.74e+08
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.075368e-03
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 6.495639e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:15 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.813092e-02
+[Thu 29. Nov 20:13:15 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.890118e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 7.778995e+02
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.389435 -709.059150 840.808530 4036.985945 0.000000 23291.341847 6240411.632060 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:19 1.88e+03 1.29e+04 9.11e+03 5.15e+00 3.07e+05 1.44e+08
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.663125e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 8.188789e-02
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.035482e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 8.687553e-01
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 5.291602e+02
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.478482 -723.586934 872.476162 5916.362860 0.000000 23165.870589 6073849.856279 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:20 1.85e+03 1.48e+04 1.36e+04 4.54e+00 2.30e+05 1.12e+08
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.280730e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.003550e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.038047e-02
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.924628e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 3.888856e+02
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.517796 -739.915824 907.931810 7031.047381 0.000000 23219.338464 6076661.084366 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:21 1.93e+03 1.68e+04 1.88e+04 4.27e+00 1.76e+05 8.00e+07
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.689050e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.162617e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 1.193756e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.160505e+00
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 2.915812e+02
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.517473 -754.928577 939.937562 7365.378313 0.000000 23513.469039 6176638.554760 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:22 2.03e+03 1.81e+04 2.20e+04 4.21e+00 1.81e+05 6.24e+07
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.935816e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.258566e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 1.645332e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.274038e+00
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 2.488258e+02
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.495527 -765.669802 963.108175 7077.152426 0.000000 23878.655368 6311685.265809 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:23 2.11e+03 1.82e+04 2.29e+04 4.19e+00 1.72e+05 4.83e+07
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 8.229025e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.268350e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 1.869788e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.441312e+00
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 8 Residual = 2.483394e+02
+[Thu 29. Nov 20:13:16 2018] Processing results ready
+[Thu 29. Nov 20:13:16 2018]  output:Ave Values = -1.471088 -771.298346 976.171487 6395.735847 0.000000 24241.543542 6437002.944989 0.000000
+[Thu 29. Nov 20:13:16 2018]  output:24 2.15e+03 1.75e+04 2.20e+04 4.17e+00 1.63e+05 3.64e+07
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.032193e-03
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.210703e-01
+[Thu 29. Nov 20:13:16 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:16 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 1.816379e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.780055e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 2.520930e+02
+[Thu 29. Nov 20:13:17 2018] Processing results ready
+[Thu 29. Nov 20:13:17 2018]  output:Ave Values = -1.458721 -772.344076 980.083094 5556.085907 0.000000 24564.015537 6523760.390410 0.000000
+[Thu 29. Nov 20:13:17 2018]  output:25 2.17e+03 1.63e+04 2.00e+04 4.18e+00 1.58e+05 2.76e+07
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.109849e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.117239e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 1.554073e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.333769e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 8.639604e+01
+[Thu 29. Nov 20:13:17 2018] Processing results ready
+[Thu 29. Nov 20:13:17 2018]  output:Ave Values = -1.463131 -770.082265 977.175975 4762.019833 0.000000 24827.861970 6567477.034642 0.000000
+[Thu 29. Nov 20:13:17 2018]  output:26 2.19e+03 1.51e+04 1.77e+04 4.26e+00 1.54e+05 2.14e+07
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.322785e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 1.008167e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 1.226095e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.743539e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.292373e+01
+[Thu 29. Nov 20:13:17 2018] Processing results ready
+[Thu 29. Nov 20:13:17 2018]  output:Ave Values = -1.481788 -766.634700 971.678410 4147.844090 0.000000 25036.257766 6573884.329451 0.000000
+[Thu 29. Nov 20:13:17 2018]  output:27 2.22e+03 1.40e+04 1.56e+04 4.31e+00 1.51e+05 1.86e+07
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.486903e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 9.132164e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 9.685921e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.967662e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.741444e+01
+[Thu 29. Nov 20:13:17 2018] Processing results ready
+[Thu 29. Nov 20:13:17 2018]  output:Ave Values = -1.517106 -763.490840 966.641801 3741.927155 0.000000 25197.991848 6556124.147940 0.000000
+[Thu 29. Nov 20:13:17 2018]  output:28 2.23e+03 1.32e+04 1.40e+04 4.30e+00 1.49e+05 1.99e+07
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.601378e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 12 Residual = 8.399952e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 8.136561e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 6.191271e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.432231e+01
+[Thu 29. Nov 20:13:17 2018] Processing results ready
+[Thu 29. Nov 20:13:17 2018]  output:Ave Values = -1.568805 -761.325716 963.385993 3505.515362 0.000000 25324.842472 6525590.166155 0.000000
+[Thu 29. Nov 20:13:17 2018]  output:29 2.23e+03 1.25e+04 1.29e+04 4.24e+00 1.46e+05 2.35e+07
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.679439e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 7.853479e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.386087e-02
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 6.401369e-01
+[Thu 29. Nov 20:13:17 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:17 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.402586e+01
+[Thu 29. Nov 20:13:18 2018] Processing results ready
+[Thu 29. Nov 20:13:18 2018]  output:Ave Values = -1.633906 -760.233170 962.077790 3378.477866 0.000000 25429.314723 6493411.499543 0.000000
+[Thu 29. Nov 20:13:18 2018]  output:30 2.22e+03 1.21e+04 1.24e+04 4.12e+00 1.44e+05 2.67e+07
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.730664e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 7.431470e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.098935e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 6.356576e-01
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.336377e+01
+[Thu 29. Nov 20:13:18 2018] Processing results ready
+[Thu 29. Nov 20:13:18 2018]  output:Ave Values = -1.706959 -759.999443 962.311095 3305.880557 0.000000 25521.496416 6464628.729455 0.000000
+[Thu 29. Nov 20:13:18 2018]  output:31 2.21e+03 1.17e+04 1.21e+04 3.96e+00 1.42e+05 2.84e+07
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.762642e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 7.071866e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.998782e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 6.317394e-01
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.577489e+01
+[Thu 29. Nov 20:13:18 2018] Processing results ready
+[Thu 29. Nov 20:13:18 2018]  output:Ave Values = -1.781224 -760.312461 963.498828 3248.833940 0.000000 25608.845517 6442616.823412 0.000000
+[Thu 29. Nov 20:13:18 2018]  output:32 2.20e+03 1.13e+04 1.19e+04 3.79e+00 1.39e+05 2.84e+07
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.779420e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 6.737840e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.987418e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:18 2018] Processing results ready
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 6.226646e-01
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.686528e+01
+[Thu 29. Nov 20:13:18 2018]  output:Ave Values = -1.852035 -760.894472 965.126206 3185.190404 0.000000 25696.661197 6426995.233338 0.000000
+[Thu 29. Nov 20:13:18 2018]  output:33 2.18e+03 1.10e+04 1.18e+04 3.60e+00 1.36e+05 2.73e+07
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.783215e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 6.414896e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.976588e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 6.100437e-01
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.890061e+01
+[Thu 29. Nov 20:13:18 2018] Processing results ready
+[Thu 29. Nov 20:13:18 2018]  output:Ave Values = -1.918292 -761.521063 966.821957 3106.138198 0.000000 25787.158942 6416986.843590 0.000000
+[Thu 29. Nov 20:13:18 2018]  output:34 2.16e+03 1.07e+04 1.17e+04 3.42e+00 1.33e+05 2.57e+07
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.778501e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 12 Residual = 6.095889e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.913608e-02
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.982419e-01
+[Thu 29. Nov 20:13:18 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:18 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.923847e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:19 2018]  output:Ave Values = -1.978246 -762.071469 968.368889 3011.735219 0.000000 25881.479518 6410968.826676 0.000000
+[Thu 29. Nov 20:13:19 2018]  output:35 2.15e+03 1.04e+04 1.15e+04 3.25e+00 1.31e+05 2.39e+07
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.770018e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 5.781404e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.766954e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 6.011388e-01
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.828579e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:19 2018]  output:Ave Values = -2.033269 -762.495925 969.680361 2906.390575 0.000000 25980.163315 6408520.529716 0.000000
+[Thu 29. Nov 20:13:19 2018]  output:36 2.13e+03 1.01e+04 1.13e+04 3.09e+00 1.30e+05 2.18e+07
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.759336e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 5.474799e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 6.561123e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 5.873587e-01
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 9.440091e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:19 2018]  output:Ave Values = -2.085818 -762.794034 970.751127 2795.870359 0.000000 26083.034182 6408602.233631 0.000000
+[Thu 29. Nov 20:13:19 2018]  output:37 2.11e+03 9.89e+03 1.10e+04 2.95e+00 1.29e+05 2.00e+07
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.745460e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 12 Residual = 5.181935e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.341201e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.797326e-01
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.107951e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:19 2018]  output:Ave Values = -2.136200 -762.989140 971.615416 2685.450609 0.000000 26190.443289 6410856.644985 0.000000
+[Thu 29. Nov 20:13:19 2018]  output:38 2.10e+03 9.66e+03 1.08e+04 2.81e+00 1.29e+05 1.83e+07
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 1.733307e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.004000 Iterations = 12 Residual = 4.906294e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.109489e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.712026e-01
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 8.843490e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:19 2018]  output:Ave Values = -2.186004 -763.110869 972.324708 2579.045251 0.000000 26302.874098 6415064.354762 0.000000
+[Thu 29. Nov 20:13:19 2018]  output:39 2.08e+03 9.46e+03 1.05e+04 2.67e+00 1.29e+05 1.70e+07
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.722922e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 4.649565e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.885118e-02
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.569071e-01
+[Thu 29. Nov 20:13:19 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:19 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 8.625536e+01
+[Thu 29. Nov 20:13:19 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.235229 -763.192937 972.929420 2479.006970 0.000000 26420.622881 6421060.701795 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:40 2.07e+03 9.28e+03 1.02e+04 2.54e+00 1.30e+05 1.62e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.712349e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 12 Residual = 4.413326e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.665677e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.489749e-01
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 8.323021e+01
+[Thu 29. Nov 20:13:20 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.282377 -763.257256 973.471102 2386.330847 0.000000 26544.193885 6428888.275327 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:41 2.05e+03 9.12e+03 1.00e+04 2.42e+00 1.30e+05 1.52e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.702736e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 4.194312e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.457709e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 5.438607e-01
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 8.047853e+01
+[Thu 29. Nov 20:13:20 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.325412 -763.313231 973.981259 2301.100275 0.000000 26671.521282 6438828.327062 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:42 2.04e+03 8.98e+03 9.78e+03 2.30e+00 1.31e+05 1.43e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.694059e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 12 Residual = 3.990309e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 5.262525e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.387716e-01
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.801676e+01
+[Thu 29. Nov 20:13:20 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.369937 -763.379650 974.479723 2222.707426 0.000000 26803.564359 6450560.813030 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:43 2.03e+03 8.86e+03 9.57e+03 2.18e+00 1.31e+05 1.37e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.687483e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 3.801718e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.078177e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.315829e-01
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.688663e+01
+[Thu 29. Nov 20:13:20 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.414729 -763.459432 974.973809 2150.377723 0.000000 26940.146262 6464576.589151 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:44 2.03e+03 8.75e+03 9.39e+03 2.07e+00 1.32e+05 1.32e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.680183e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 3.626506e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.905979e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.225122e-01
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.812040e+01
+[Thu 29. Nov 20:13:20 2018] Processing results ready
+[Thu 29. Nov 20:13:20 2018]  output:Ave Values = -2.458563 -763.551627 975.466033 2083.278491 0.000000 27079.918444 6480677.577067 0.000000
+[Thu 29. Nov 20:13:20 2018]  output:45 2.02e+03 8.66e+03 9.22e+03 1.96e+00 1.33e+05 1.32e+07
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.673531e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 12 Residual = 3.461492e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:20 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.747786e-02
+[Thu 29. Nov 20:13:20 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.101450e-01
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.522327e+01
+[Thu 29. Nov 20:13:21 2018] Processing results ready
+[Thu 29. Nov 20:13:21 2018]  output:Ave Values = -2.499856 -763.654553 975.959901 2020.762600 0.000000 27223.095943 6498319.701550 0.000000
+[Thu 29. Nov 20:13:21 2018]  output:46 2.02e+03 8.58e+03 9.07e+03 1.86e+00 1.33e+05 1.28e+07
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.667311e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 3.304903e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.596652e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 5.023475e-01
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.480850e+01
+[Thu 29. Nov 20:13:21 2018] Processing results ready
+[Thu 29. Nov 20:13:21 2018]  output:Ave Values = -2.539627 -763.765894 976.455926 1962.348609 0.000000 27369.298926 6517776.824930 0.000000
+[Thu 29. Nov 20:13:21 2018]  output:47 2.02e+03 8.51e+03 8.94e+03 1.76e+00 1.34e+05 1.26e+07
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.661373e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 12 Residual = 3.157017e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.456716e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.982030e-01
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.487251e+01
+[Thu 29. Nov 20:13:21 2018] Processing results ready
+[Thu 29. Nov 20:13:21 2018]  output:Ave Values = -2.582774 -763.885243 976.954113 1907.654511 0.000000 27518.182040 6539023.442870 0.000000
+[Thu 29. Nov 20:13:21 2018]  output:48 2.02e+03 8.46e+03 8.82e+03 1.66e+00 1.35e+05 1.24e+07
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.655061e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 8.233703e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.327255e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.959323e-01
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.538183e+01
+[Thu 29. Nov 20:13:21 2018] Processing results ready
+[Thu 29. Nov 20:13:21 2018]  output:Ave Values = -2.620335 -764.012951 977.460293 1856.348176 0.000000 27669.403021 6561920.304615 0.000000
+[Thu 29. Nov 20:13:21 2018]  output:49 2.03e+03 8.41e+03 8.71e+03 1.57e+00 1.36e+05 1.27e+07
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.647942e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.876639e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.210928e-02
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.934463e-01
+[Thu 29. Nov 20:13:21 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:21 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.539638e+01
+[Thu 29. Nov 20:13:21 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.655991 -764.148090 977.973690 1808.095693 0.000000 27821.640500 6586067.222798 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:50 2.03e+03 8.37e+03 8.61e+03 1.48e+00 1.36e+05 1.26e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.642135e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.537224e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.103956e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.921788e-01
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.565542e+01
+[Thu 29. Nov 20:13:22 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.689469 -764.290768 978.491321 1762.696763 0.000000 27974.598339 6611144.046579 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:51 2.04e+03 8.34e+03 8.53e+03 1.40e+00 1.36e+05 1.26e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.638353e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 7.262897e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.036144e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.837257e-01
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.439203e+01
+[Thu 29. Nov 20:13:22 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.726672 -764.712831 979.365823 1712.629282 0.000000 28121.820786 6639285.869174 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:52 2.05e+03 8.35e+03 8.49e+03 1.33e+00 1.36e+05 1.34e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.633762e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 6.891348e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.940334e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.779292e-01
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.403415e+01
+[Thu 29. Nov 20:13:22 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.762759 -764.979916 980.005153 1663.862310 0.000000 28265.432851 6667124.863388 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:53 2.05e+03 8.31e+03 8.40e+03 1.25e+00 1.34e+05 1.41e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.629647e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 6.549906e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.852460e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:22 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.721261e-01
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.551858e+01
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.792845 -765.172677 980.563404 1619.872072 0.000000 28406.480458 6694528.423189 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:54 2.06e+03 8.29e+03 8.32e+03 1.18e+00 1.33e+05 1.43e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.623919e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 6.239134e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.784421e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.661528e-01
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.502885e+01
+[Thu 29. Nov 20:13:22 2018] Processing results ready
+[Thu 29. Nov 20:13:22 2018]  output:Ave Values = -2.817397 -765.338838 981.098546 1581.610448 0.000000 28545.597857 6721594.878058 0.000000
+[Thu 29. Nov 20:13:22 2018]  output:55 2.07e+03 8.27e+03 8.25e+03 1.11e+00 1.32e+05 1.41e+07
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.617216e-02
+[Thu 29. Nov 20:13:22 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:22 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.974471e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.733547e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.612492e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.293251e+01
+[Thu 29. Nov 20:13:23 2018] Processing results ready
+[Thu 29. Nov 20:13:23 2018]  output:Ave Values = -2.842398 -765.500902 981.655696 1548.390390 0.000000 28681.619969 6748189.965921 0.000000
+[Thu 29. Nov 20:13:23 2018]  output:56 2.08e+03 8.26e+03 8.19e+03 1.04e+00 1.32e+05 1.37e+07
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.610984e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.749587e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.691636e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.590856e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.138657e+01
+[Thu 29. Nov 20:13:23 2018] Processing results ready
+[Thu 29. Nov 20:13:23 2018]  output:Ave Values = -2.868532 -765.673608 982.234632 1518.826508 0.000000 28816.534984 6774758.485132 0.000000
+[Thu 29. Nov 20:13:23 2018]  output:57 2.09e+03 8.26e+03 8.14e+03 9.83e-01 1.33e+05 1.33e+07
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.604769e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.552498e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.642884e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.604257e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.977370e+01
+[Thu 29. Nov 20:13:23 2018] Processing results ready
+[Thu 29. Nov 20:13:23 2018]  output:Ave Values = -2.896386 -765.859905 982.799247 1491.887220 0.000000 28951.543227 6801286.830369 0.000000
+[Thu 29. Nov 20:13:23 2018]  output:58 2.10e+03 8.26e+03 8.10e+03 9.26e-01 1.33e+05 1.30e+07
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.598636e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 5.378359e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.608426e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.597095e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.826658e+01
+[Thu 29. Nov 20:13:23 2018] Processing results ready
+[Thu 29. Nov 20:13:23 2018]  output:Ave Values = -2.924075 -766.052361 983.394220 1467.562684 0.000000 29088.783902 6828228.715350 0.000000
+[Thu 29. Nov 20:13:23 2018]  output:59 2.10e+03 8.27e+03 8.06e+03 8.72e-01 1.33e+05 1.26e+07
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.594176e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 5.211402e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.571680e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.567078e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.682190e+01
+[Thu 29. Nov 20:13:23 2018] Processing results ready
+[Thu 29. Nov 20:13:23 2018]  output:Ave Values = -2.946049 -766.247580 983.999553 1444.583002 0.000000 29228.290045 6855674.919224 0.000000
+[Thu 29. Nov 20:13:23 2018]  output:60 2.11e+03 8.28e+03 8.02e+03 8.20e-01 1.33e+05 1.22e+07
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.589273e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 5.057449e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.533080e-02
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.514201e-01
+[Thu 29. Nov 20:13:23 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:23 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.511600e+01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:Ave Values = -2.965305 -766.442994 984.596068 1422.485157 0.000000 29367.234521 6883907.357264 0.000000
+[Thu 29. Nov 20:13:24 2018]  output:61 2.12e+03 8.29e+03 7.99e+03 7.72e-01 1.31e+05 1.19e+07
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.583212e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.920146e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.500984e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.429135e-01
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.486455e+01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:Ave Values = -2.983370 -766.632976 985.184708 1401.619056 0.000000 29510.594116 6912543.467564 0.000000
+[Thu 29. Nov 20:13:24 2018]  output:62 2.13e+03 8.30e+03 7.96e+03 7.26e-01 1.28e+05 1.16e+07
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.578649e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.789382e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.469023e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.382242e-01
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.318989e+01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:Ave Values = -2.995238 -766.815651 985.781172 1382.081357 0.000000 29652.325494 6941903.754177 0.000000
+[Thu 29. Nov 20:13:24 2018]  output:63 2.14e+03 8.31e+03 7.94e+03 6.83e-01 1.27e+05 1.11e+07
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.573822e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.659526e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.442023e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.346079e-01
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.350941e+01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:Ave Values = -3.007332 -766.993292 986.384106 1363.531610 0.000000 29793.097125 6971032.413828 0.000000
+[Thu 29. Nov 20:13:24 2018]  output:64 2.15e+03 8.33e+03 7.91e+03 6.42e-01 1.25e+05 1.08e+07
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.569111e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.537868e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.415875e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.273362e-01
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.140693e+01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:Ave Values = -3.017007 -767.172892 986.984132 1345.590075 0.000000 29933.131304 7000506.676553 0.000000
+[Thu 29. Nov 20:13:24 2018]  output:65 2.16e+03 8.34e+03 7.89e+03 6.05e-01 1.24e+05 1.05e+07
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.564454e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.421664e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.390392e-02
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 4.201784e-01
+[Thu 29. Nov 20:13:24 2018] Processing results ready
+[Thu 29. Nov 20:13:24 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:24 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.287535e+01
+[Thu 29. Nov 20:13:25 2018]  output:Ave Values = -3.025343 -767.353551 987.562159 1327.844768 0.000000 30070.922505 7029610.747639 0.000000
+[Thu 29. Nov 20:13:25 2018]  output:66 2.17e+03 8.35e+03 7.87e+03 5.69e-01 1.23e+05 1.03e+07
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.559220e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.310284e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 11 Residual = 3.364224e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.104486e-01
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.030837e+01
+[Thu 29. Nov 20:13:25 2018] Processing results ready
+[Thu 29. Nov 20:13:25 2018]  output:Ave Values = -3.033743 -767.510283 988.123636 1310.944934 0.000000 30206.179536 7058791.741347 0.000000
+[Thu 29. Nov 20:13:25 2018]  output:67 2.17e+03 8.36e+03 7.85e+03 5.32e-01 1.23e+05 1.00e+07
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.553691e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.204146e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.335211e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 4.013178e-01
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.075133e+01
+[Thu 29. Nov 20:13:25 2018] Processing results ready
+[Thu 29. Nov 20:13:25 2018]  output:Ave Values = -3.043770 -767.662572 988.696702 1295.321098 0.000000 30342.768138 7087693.812619 0.000000
+[Thu 29. Nov 20:13:25 2018]  output:68 2.18e+03 8.37e+03 7.83e+03 5.01e-01 1.21e+05 9.76e+06
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.547947e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 4.108157e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.312024e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.999197e-01
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.913945e+01
+[Thu 29. Nov 20:13:25 2018] Processing results ready
+[Thu 29. Nov 20:13:25 2018]  output:Ave Values = -3.051899 -767.813511 989.272568 1280.814584 0.000000 30476.795265 7116572.305456 0.000000
+[Thu 29. Nov 20:13:25 2018]  output:69 2.19e+03 8.39e+03 7.81e+03 4.72e-01 1.21e+05 9.65e+06
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.542297e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 4.013816e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.304113e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.927234e-01
+[Thu 29. Nov 20:13:25 2018] Processing results ready
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.915668e+01
+[Thu 29. Nov 20:13:25 2018]  output:Ave Values = -3.057311 -767.969657 989.851349 1267.197923 0.000000 30609.378587 7145602.528204 0.000000
+[Thu 29. Nov 20:13:25 2018]  output:70 2.19e+03 8.40e+03 7.80e+03 4.45e-01 1.21e+05 9.16e+06
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.536852e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.922799e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.289439e-02
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.878776e-01
+[Thu 29. Nov 20:13:25 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:25 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.747024e+01
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:26 2018]  output:Ave Values = -3.061188 -768.112186 990.428889 1254.214351 0.000000 30740.704839 7174813.190098 0.000000
+[Thu 29. Nov 20:13:26 2018]  output:71 2.20e+03 8.41e+03 7.79e+03 4.17e-01 1.19e+05 8.86e+06
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.531551e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.837295e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.256842e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.844591e-01
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.780623e+01
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:26 2018]  output:Ave Values = -3.064907 -768.254491 991.004753 1241.761341 0.000000 30870.576402 7203573.552813 0.000000
+[Thu 29. Nov 20:13:26 2018]  output:72 2.20e+03 8.41e+03 7.78e+03 3.93e-01 1.18e+05 8.51e+06
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.526119e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.758765e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.211626e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.806205e-01
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.689908e+01
+[Thu 29. Nov 20:13:26 2018]  output:Ave Values = -3.069436 -768.404550 991.567912 1229.637447 0.000000 30999.064328 7231859.853597 0.000000
+[Thu 29. Nov 20:13:26 2018]  output:73 2.21e+03 8.42e+03 7.77e+03 3.70e-01 1.17e+05 8.29e+06
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.520700e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.687630e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.174377e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.789027e-01
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.633752e+01
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:26 2018]  output:Ave Values = -3.073672 -768.560667 992.112854 1218.137332 0.000000 31124.595359 7259322.307098 0.000000
+[Thu 29. Nov 20:13:26 2018]  output:74 2.21e+03 8.43e+03 7.76e+03 3.49e-01 1.16e+05 8.06e+06
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.515269e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.620706e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.141687e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.762310e-01
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.448904e+01
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:26 2018]  output:Ave Values = -3.078268 -768.702213 992.636990 1207.673070 0.000000 31249.458284 7286364.943785 0.000000
+[Thu 29. Nov 20:13:26 2018]  output:75 2.22e+03 8.44e+03 7.76e+03 3.26e-01 1.14e+05 7.79e+06
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.509981e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.558186e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.112457e-02
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.733972e-01
+[Thu 29. Nov 20:13:26 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:26 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.369167e+01
+[Thu 29. Nov 20:13:26 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.083234 -768.834350 993.146911 1198.326248 0.000000 31373.029815 7312850.508764 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:76 2.22e+03 8.45e+03 7.75e+03 3.05e-01 1.14e+05 7.47e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.504722e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.500065e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.091753e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.701600e-01
+[Thu 29. Nov 20:13:27 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.198991e+01
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.087458 -768.961067 993.649893 1190.002651 0.000000 31496.986425 7338729.609105 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:77 2.23e+03 8.45e+03 7.75e+03 2.87e-01 1.11e+05 7.17e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.499418e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.446604e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.072217e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.662939e-01
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.114612e+01
+[Thu 29. Nov 20:13:27 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.090562 -769.081578 994.148309 1182.549749 0.000000 31620.192373 7363836.407857 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:78 2.23e+03 8.46e+03 7.75e+03 2.69e-01 1.09e+05 6.86e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.494289e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.396918e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.054719e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.587675e-01
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.963949e+01
+[Thu 29. Nov 20:13:27 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.093008 -769.196020 994.638971 1175.836817 0.000000 31742.551394 7388195.595651 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:79 2.24e+03 8.48e+03 7.75e+03 2.52e-01 1.08e+05 6.59e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.489386e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.350591e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.043900e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.562621e-01
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.903825e+01
+[Thu 29. Nov 20:13:27 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.095079 -769.304732 995.119063 1169.704469 0.000000 31860.330131 7411693.322788 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:80 2.24e+03 8.49e+03 7.75e+03 2.36e-01 1.09e+05 6.28e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.484637e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.307804e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.045281e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.472045e-01
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.825471e+01
+[Thu 29. Nov 20:13:27 2018] Processing results ready
+[Thu 29. Nov 20:13:27 2018]  output:Ave Values = -3.097508 -769.408758 995.584766 1164.052717 0.000000 31977.426384 7434801.970228 0.000000
+[Thu 29. Nov 20:13:27 2018]  output:81 2.24e+03 8.49e+03 7.74e+03 2.22e-01 1.07e+05 5.98e+06
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.480156e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.268370e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:27 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.066837e-02
+[Thu 29. Nov 20:13:27 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.407438e-01
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.779838e+01
+[Thu 29. Nov 20:13:28 2018] Processing results ready
+[Thu 29. Nov 20:13:28 2018]  output:Ave Values = -3.100697 -769.511171 996.033485 1158.838118 0.000000 32092.305121 7457267.725133 0.000000
+[Thu 29. Nov 20:13:28 2018]  output:82 2.25e+03 8.50e+03 7.74e+03 2.08e-01 1.06e+05 5.74e+06
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.475896e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.231433e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.103656e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.313179e-01
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.738416e+01
+[Thu 29. Nov 20:13:28 2018] Processing results ready
+[Thu 29. Nov 20:13:28 2018]  output:Ave Values = -3.105052 -769.612415 996.468365 1154.150950 0.000000 32208.403572 7479128.707910 0.000000
+[Thu 29. Nov 20:13:28 2018]  output:83 2.25e+03 8.51e+03 7.74e+03 1.95e-01 1.04e+05 5.49e+06
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.471858e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.195643e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.157839e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.251966e-01
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.715074e+01
+[Thu 29. Nov 20:13:28 2018] Processing results ready
+[Thu 29. Nov 20:13:28 2018]  output:Ave Values = -3.109736 -769.712981 996.890321 1150.040720 0.000000 32323.031376 7500469.501764 0.000000
+[Thu 29. Nov 20:13:28 2018]  output:84 2.25e+03 8.52e+03 7.74e+03 1.83e-01 1.03e+05 5.24e+06
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.467930e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.161564e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.225224e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 3.205600e-01
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.701627e+01
+[Thu 29. Nov 20:13:28 2018] Processing results ready
+[Thu 29. Nov 20:13:28 2018]  output:Ave Values = -3.114019 -769.812219 997.293283 1146.380360 0.000000 32435.927549 7521088.213160 0.000000
+[Thu 29. Nov 20:13:28 2018]  output:85 2.25e+03 8.53e+03 7.74e+03 1.72e-01 1.03e+05 5.02e+06
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.464133e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.129389e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.298586e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.155251e-01
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.691894e+01
+[Thu 29. Nov 20:13:28 2018] Processing results ready
+[Thu 29. Nov 20:13:28 2018]  output:Ave Values = -3.117816 -769.909747 997.681798 1143.093350 0.000000 32547.509315 7540803.805753 0.000000
+[Thu 29. Nov 20:13:28 2018]  output:86 2.26e+03 8.53e+03 7.74e+03 1.61e-01 1.01e+05 4.90e+06
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.460366e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.515240e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:28 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.384633e-02
+[Thu 29. Nov 20:13:28 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.090426e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.658510e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:29 2018]  output:Ave Values = -3.120838 -770.005555 998.056997 1140.124852 0.000000 32658.862455 7559574.608974 0.000000
+[Thu 29. Nov 20:13:29 2018]  output:87 2.26e+03 8.54e+03 7.74e+03 1.51e-01 9.91e+04 4.79e+06
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.456616e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.440445e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.425695e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 3.029305e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.368521e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:29 2018]  output:Ave Values = -3.122946 -770.095931 998.420645 1137.324808 0.000000 32767.980361 7577721.525121 0.000000
+[Thu 29. Nov 20:13:29 2018]  output:88 2.26e+03 8.54e+03 7.74e+03 1.41e-01 9.79e+04 4.59e+06
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.452600e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 8.368696e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.468955e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 2.946638e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.361299e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:29 2018]  output:Ave Values = -3.124702 -770.185078 998.771856 1134.623137 0.000000 32874.704972 7595173.357122 0.000000
+[Thu 29. Nov 20:13:29 2018]  output:89 2.26e+03 8.55e+03 7.74e+03 1.31e-01 9.67e+04 4.47e+06
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.448795e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.302995e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.492064e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 2.901967e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.351141e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:29 2018]  output:Ave Values = -3.125759 -770.274589 999.109799 1131.919259 0.000000 32979.815070 7611731.868325 0.000000
+[Thu 29. Nov 20:13:29 2018]  output:90 2.27e+03 8.55e+03 7.74e+03 1.23e-01 9.55e+04 4.42e+06
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.444490e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.242758e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.467462e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.843063e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.336851e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:29 2018]  output:Ave Values = -3.125223 -770.365449 999.433754 1128.983746 0.000000 33083.717159 7627594.280357 0.000000
+[Thu 29. Nov 20:13:29 2018]  output:91 2.27e+03 8.55e+03 7.74e+03 1.15e-01 9.42e+04 4.33e+06
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.440280e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.186545e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.508270e-02
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 2.798996e-01
+[Thu 29. Nov 20:13:29 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:29 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.325510e+01
+[Thu 29. Nov 20:13:29 2018] Processing results ready
+[Thu 29. Nov 20:13:30 2018]  output:Ave Values = -3.122528 -770.457172 999.740069 1125.848861 0.000000 33185.118678 7642888.758673 0.000000
+[Thu 29. Nov 20:13:30 2018]  output:92 2.27e+03 8.56e+03 7.74e+03 1.08e-01 9.31e+04 4.25e+06
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.436200e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.132814e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.711739e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.757969e-01
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.311306e+01
+[Thu 29. Nov 20:13:30 2018] Processing results ready
+[Thu 29. Nov 20:13:30 2018]  output:Ave Values = -3.117866 -770.548532 1000.028325 1122.799235 0.000000 33285.046634 7657493.276711 0.000000
+[Thu 29. Nov 20:13:30 2018]  output:93 2.27e+03 8.56e+03 7.74e+03 1.01e-01 9.20e+04 4.20e+06
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.432228e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.083220e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.784053e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.701275e-01
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.297590e+01
+[Thu 29. Nov 20:13:30 2018] Processing results ready
+[Thu 29. Nov 20:13:30 2018]  output:Ave Values = -3.111401 -770.639259 1000.304484 1119.900902 0.000000 33383.493585 7671617.997737 0.000000
+[Thu 29. Nov 20:13:30 2018]  output:94 2.27e+03 8.56e+03 7.74e+03 9.47e-02 9.08e+04 4.07e+06
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.428396e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.036128e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.817033e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.645169e-01
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.280367e+01
+[Thu 29. Nov 20:13:30 2018] Processing results ready
+[Thu 29. Nov 20:13:30 2018]  output:Ave Values = -3.103656 -770.729329 1000.570013 1117.125513 0.000000 33479.197885 7685152.195766 0.000000
+[Thu 29. Nov 20:13:30 2018]  output:95 2.27e+03 8.56e+03 7.74e+03 8.87e-02 8.98e+04 4.01e+06
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.424728e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.990649e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.849349e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.572754e-01
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.254195e+01
+[Thu 29. Nov 20:13:30 2018] Processing results ready
+[Thu 29. Nov 20:13:30 2018]  output:Ave Values = -3.094604 -770.818785 1000.825884 1114.407629 0.000000 33573.784461 7697966.696726 0.000000
+[Thu 29. Nov 20:13:30 2018]  output:96 2.27e+03 8.56e+03 7.75e+03 8.31e-02 8.91e+04 4.01e+06
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.421218e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.946516e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 3.815678e-02
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 2.499808e-01
+[Thu 29. Nov 20:13:30 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:30 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.234315e+01
+[Thu 29. Nov 20:13:30 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.083921 -770.908159 1001.070210 1111.640934 0.000000 33666.371979 7710467.742120 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:97 2.27e+03 8.56e+03 7.75e+03 7.78e-02 8.78e+04 3.90e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.417891e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.905298e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.750098e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 8.490130e-01
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.218218e+01
+[Thu 29. Nov 20:13:31 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.072097 -770.997248 1001.304531 1108.784234 0.000000 33757.117996 7722982.258717 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:98 2.27e+03 8.56e+03 7.75e+03 7.27e-02 8.63e+04 3.83e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.414746e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.867243e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.737953e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 8.281944e-01
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.195868e+01
+[Thu 29. Nov 20:13:31 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.059465 -771.086204 1001.527784 1105.843813 0.000000 33845.755391 7735045.110326 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:99 2.27e+03 8.56e+03 7.75e+03 6.79e-02 8.49e+04 3.75e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.411766e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.833002e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.004000 Iterations = 11 Residual = 3.682823e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 8.050999e-01
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.174732e+01
+[Thu 29. Nov 20:13:31 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.046562 -771.174950 1001.740471 1102.901961 0.000000 33932.680451 7746688.309600 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:100 2.27e+03 8.56e+03 7.74e+03 6.34e-02 8.35e+04 3.69e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.408924e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.801678e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 11 Residual = 3.641738e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.883280e-01
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.153398e+01
+[Thu 29. Nov 20:13:31 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.033934 -771.262565 1001.945918 1100.102174 0.000000 34016.790117 7757942.260395 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:101 2.27e+03 8.56e+03 7.74e+03 5.92e-02 8.21e+04 3.65e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.409182e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.766719e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.008000 Iterations = 11 Residual = 3.270878e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.655980e-01
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.143007e+01
+[Thu 29. Nov 20:13:31 2018] Processing results ready
+[Thu 29. Nov 20:13:31 2018]  output:Ave Values = -3.022801 -771.403802 1002.264612 1091.406558 0.000000 34102.311430 7772312.798410 0.000000
+[Thu 29. Nov 20:13:31 2018]  output:102 2.28e+03 8.58e+03 7.75e+03 4.52e-02 8.03e+04 3.65e+06
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.408609e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.665150e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:31 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 3.074077e-02
+[Thu 29. Nov 20:13:31 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 7.410232e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.131225e+01
+[Thu 29. Nov 20:13:32 2018] Processing results ready
+[Thu 29. Nov 20:13:32 2018]  output:Ave Values = -3.013052 -771.489671 1002.507938 1081.417905 0.000000 34187.308908 7787110.301600 0.000000
+[Thu 29. Nov 20:13:32 2018]  output:103 2.28e+03 8.58e+03 7.75e+03 4.02e-02 7.83e+04 3.66e+06
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.407450e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.556235e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 2.945724e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.196422e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.117063e+01
+[Thu 29. Nov 20:13:32 2018] Processing results ready
+[Thu 29. Nov 20:13:32 2018]  output:Ave Values = -3.003821 -771.548635 1002.708458 1072.544115 0.000000 34270.261763 7801420.250409 0.000000
+[Thu 29. Nov 20:13:32 2018]  output:104 2.28e+03 8.58e+03 7.75e+03 3.78e-02 7.67e+04 3.64e+06
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.405864e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.470696e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 2.886593e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 7.028528e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.094630e+01
+[Thu 29. Nov 20:13:32 2018] Processing results ready
+[Thu 29. Nov 20:13:32 2018]  output:Ave Values = -2.994795 -771.601595 1002.886995 1065.668816 0.000000 34351.017925 7814791.839841 0.000000
+[Thu 29. Nov 20:13:32 2018]  output:105 2.28e+03 8.58e+03 7.74e+03 3.61e-02 7.54e+04 3.64e+06
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.403951e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.416834e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 11 Residual = 2.882058e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 6.905121e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.073160e+01
+[Thu 29. Nov 20:13:32 2018] Processing results ready
+[Thu 29. Nov 20:13:32 2018]  output:Ave Values = -2.986954 -771.659223 1003.046412 1061.229277 0.000000 34428.939649 7827094.994234 0.000000
+[Thu 29. Nov 20:13:32 2018]  output:106 2.28e+03 8.58e+03 7.74e+03 3.39e-02 7.48e+04 3.59e+06
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.401777e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 7.391679e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 11 Residual = 2.862021e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.736988e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.052676e+01
+[Thu 29. Nov 20:13:32 2018] Processing results ready
+[Thu 29. Nov 20:13:32 2018]  output:Ave Values = -2.980775 -771.725154 1003.204739 1058.869899 0.000000 34505.468303 7838660.498577 0.000000
+[Thu 29. Nov 20:13:32 2018]  output:107 2.28e+03 8.57e+03 7.74e+03 3.18e-02 7.29e+04 3.49e+06
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.399334e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.388399e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.728883e-02
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.578377e-01
+[Thu 29. Nov 20:13:32 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:32 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 1.029100e+01
+[Thu 29. Nov 20:13:33 2018] Processing results ready
+[Thu 29. Nov 20:13:33 2018]  output:Ave Values = -2.979706 -771.800109 1003.369424 1057.855031 0.000000 34580.270987 7849653.586567 0.000000
+[Thu 29. Nov 20:13:33 2018]  output:108 2.28e+03 8.57e+03 7.73e+03 3.15e-02 7.14e+04 3.40e+06
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.396907e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.398514e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.688616e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.409539e-01
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 1.005249e+01
+[Thu 29. Nov 20:13:33 2018] Processing results ready
+[Thu 29. Nov 20:13:33 2018]  output:Ave Values = -2.974974 -771.881317 1003.538752 1057.507560 0.000000 34653.385343 7860191.988527 0.000000
+[Thu 29. Nov 20:13:33 2018]  output:109 2.28e+03 8.56e+03 7.73e+03 2.84e-02 6.99e+04 3.30e+06
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.394303e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.415725e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.662494e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.231622e-01
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 9.781638e+00
+[Thu 29. Nov 20:13:33 2018] Processing results ready
+[Thu 29. Nov 20:13:33 2018]  output:Ave Values = -2.971498 -771.967606 1003.707790 1057.325149 0.000000 34725.083909 7870227.210276 0.000000
+[Thu 29. Nov 20:13:33 2018]  output:110 2.28e+03 8.56e+03 7.73e+03 2.71e-02 6.85e+04 3.23e+06
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.391648e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.435244e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.648084e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 6.050112e-01
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 9.525604e+00
+[Thu 29. Nov 20:13:33 2018] Processing results ready
+[Thu 29. Nov 20:13:33 2018]  output:Ave Values = -2.968862 -772.056835 1003.874566 1057.015144 0.000000 34795.479998 7879839.121315 0.000000
+[Thu 29. Nov 20:13:33 2018]  output:111 2.28e+03 8.56e+03 7.73e+03 2.61e-02 6.67e+04 3.15e+06
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.389173e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.456366e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.633627e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.861512e-01
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 9.244980e+00
+[Thu 29. Nov 20:13:33 2018] Processing results ready
+[Thu 29. Nov 20:13:33 2018]  output:Ave Values = -2.966100 -772.147308 1004.037680 1056.495484 0.000000 34864.375025 7889048.766496 0.000000
+[Thu 29. Nov 20:13:33 2018]  output:112 2.28e+03 8.55e+03 7.72e+03 2.54e-02 6.51e+04 3.10e+06
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.386879e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.478861e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 10 Residual = 7.606841e-02
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.675148e-01
+[Thu 29. Nov 20:13:33 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:33 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.959054e+00
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:34 2018]  output:Ave Values = -2.960866 -772.239810 1004.182784 1055.677177 0.000000 34931.713887 7897821.183816 0.000000
+[Thu 29. Nov 20:13:34 2018]  output:113 2.27e+03 8.55e+03 7.72e+03 2.56e-02 6.37e+04 3.02e+06
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.384908e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.502832e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.573796e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.512399e-01
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.678642e+00
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:34 2018]  output:Ave Values = -2.956237 -772.330292 1004.325223 1054.878294 0.000000 34996.970944 7906146.926223 0.000000
+[Thu 29. Nov 20:13:34 2018]  output:114 2.27e+03 8.55e+03 7.72e+03 2.49e-02 6.26e+04 2.96e+06
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.383217e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.526097e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.546678e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 5.347966e-01
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.419094e+00
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:34 2018]  output:Ave Values = -2.952216 -772.417890 1004.465137 1054.079204 0.000000 35060.984427 7914135.981543 0.000000
+[Thu 29. Nov 20:13:34 2018]  output:115 2.27e+03 8.55e+03 7.72e+03 2.45e-02 6.12e+04 2.89e+06
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.381692e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.550174e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.522828e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.188049e-01
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.801442e+01
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:34 2018]  output:Ave Values = -2.948351 -772.502967 1004.601042 1053.248918 0.000000 35123.528113 7921888.576238 0.000000
+[Thu 29. Nov 20:13:34 2018]  output:116 2.27e+03 8.54e+03 7.72e+03 2.43e-02 5.98e+04 2.81e+06
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.380302e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.574940e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.503580e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 5.025331e-01
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.714358e+01
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:34 2018]  output:Ave Values = -2.944023 -772.586350 1004.730800 1052.374480 0.000000 35184.756503 7929385.645874 0.000000
+[Thu 29. Nov 20:13:34 2018]  output:117 2.27e+03 8.54e+03 7.72e+03 2.42e-02 5.83e+04 2.75e+06
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.379011e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.599958e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.486782e-02
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.854090e-01
+[Thu 29. Nov 20:13:34 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:34 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.644450e+01
+[Thu 29. Nov 20:13:34 2018] Processing results ready
+[Thu 29. Nov 20:13:35 2018]  output:Ave Values = -2.938913 -772.668338 1004.851717 1051.552949 0.000000 35244.587832 7936633.161009 0.000000
+[Thu 29. Nov 20:13:35 2018]  output:118 2.27e+03 8.54e+03 7.72e+03 2.37e-02 5.71e+04 2.67e+06
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.377940e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.625458e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.476791e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.724706e-01
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.565149e+01
+[Thu 29. Nov 20:13:35 2018] Processing results ready
+[Thu 29. Nov 20:13:35 2018]  output:Ave Values = -2.933156 -772.748588 1004.964922 1050.868339 0.000000 35301.715844 7943484.742264 0.000000
+[Thu 29. Nov 20:13:35 2018]  output:119 2.27e+03 8.54e+03 7.73e+03 2.34e-02 5.64e+04 2.61e+06
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.377129e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.651752e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.469538e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.586948e-01
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.501305e+01
+[Thu 29. Nov 20:13:35 2018] Processing results ready
+[Thu 29. Nov 20:13:35 2018]  output:Ave Values = -2.926521 -772.826732 1005.072303 1050.355114 0.000000 35357.942985 7950095.460599 0.000000
+[Thu 29. Nov 20:13:35 2018]  output:120 2.27e+03 8.54e+03 7.73e+03 2.34e-02 5.49e+04 2.54e+06
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.376599e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.678204e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.465777e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.486193e-01
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.442233e+01
+[Thu 29. Nov 20:13:35 2018] Processing results ready
+[Thu 29. Nov 20:13:35 2018]  output:Ave Values = -2.919609 -772.902362 1005.174351 1050.007765 0.000000 35412.621899 7956383.078807 0.000000
+[Thu 29. Nov 20:13:35 2018]  output:121 2.27e+03 8.55e+03 7.73e+03 2.34e-02 5.37e+04 2.48e+06
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.376359e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.703223e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 7.463521e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.374096e-01
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.384732e+01
+[Thu 29. Nov 20:13:35 2018] Processing results ready
+[Thu 29. Nov 20:13:35 2018]  output:Ave Values = -2.912539 -772.974998 1005.271282 1049.821553 0.000000 35466.421650 7962371.834913 0.000000
+[Thu 29. Nov 20:13:35 2018]  output:122 2.27e+03 8.55e+03 7.74e+03 2.36e-02 5.24e+04 2.41e+06
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.376411e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.727204e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.461515e-02
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.267705e-01
+[Thu 29. Nov 20:13:35 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:35 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.324140e+01
+[Thu 29. Nov 20:13:35 2018] Processing results ready
+[Thu 29. Nov 20:13:36 2018]  output:Ave Values = -2.905047 -773.044382 1005.363021 1049.786978 0.000000 35518.088962 7967986.174270 0.000000
+[Thu 29. Nov 20:13:36 2018]  output:123 2.27e+03 8.55e+03 7.74e+03 2.40e-02 5.15e+04 2.37e+06
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.376754e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.751434e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.465252e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.141219e-01
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.271580e+01
+[Thu 29. Nov 20:13:36 2018] Processing results ready
+[Thu 29. Nov 20:13:36 2018]  output:Ave Values = -2.897278 -773.110295 1005.449409 1049.884730 0.000000 35569.406331 7973332.040533 0.000000
+[Thu 29. Nov 20:13:36 2018]  output:124 2.27e+03 8.56e+03 7.75e+03 2.43e-02 4.98e+04 2.31e+06
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.377374e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.773957e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.465157e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 4.026898e-01
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.224234e+01
+[Thu 29. Nov 20:13:36 2018] Processing results ready
+[Thu 29. Nov 20:13:36 2018]  output:Ave Values = -2.889408 -773.171906 1005.530868 1050.125022 0.000000 35619.360765 7978399.222275 0.000000
+[Thu 29. Nov 20:13:36 2018]  output:125 2.27e+03 8.56e+03 7.76e+03 2.48e-02 4.87e+04 2.26e+06
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.378245e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.796337e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.467054e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.944415e-01
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.181539e+01
+[Thu 29. Nov 20:13:36 2018] Processing results ready
+[Thu 29. Nov 20:13:36 2018]  output:Ave Values = -2.881597 -773.229169 1005.607446 1050.466410 0.000000 35667.560612 7983120.951565 0.000000
+[Thu 29. Nov 20:13:36 2018]  output:126 2.27e+03 8.57e+03 7.77e+03 2.52e-02 4.82e+04 2.24e+06
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.379352e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.818785e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.469595e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.843889e-01
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.149855e+01
+[Thu 29. Nov 20:13:36 2018] Processing results ready
+[Thu 29. Nov 20:13:36 2018]  output:Ave Values = -2.873981 -773.282277 1005.679108 1050.878028 0.000000 35715.068234 7987576.889968 0.000000
+[Thu 29. Nov 20:13:36 2018]  output:127 2.27e+03 8.58e+03 7.77e+03 2.56e-02 4.66e+04 2.21e+06
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.380674e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.841019e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.472920e-02
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 3.747512e-01
+[Thu 29. Nov 20:13:36 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:36 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.116336e+01
+[Thu 29. Nov 20:13:36 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.866851 -773.331104 1005.745819 1051.360119 0.000000 35761.679971 7991791.411288 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:128 2.28e+03 8.59e+03 7.78e+03 2.60e-02 4.55e+04 2.17e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.382202e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.862780e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.477831e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.687548e-01
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.074217e+01
+[Thu 29. Nov 20:13:37 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.860288 -773.375606 1005.807694 1051.908583 0.000000 35806.440610 7995716.801842 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:129 2.28e+03 8.60e+03 7.79e+03 2.64e-02 4.49e+04 2.11e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.383893e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.884443e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.485911e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.584156e-01
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.035254e+01
+[Thu 29. Nov 20:13:37 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.854278 -773.415864 1005.864665 1052.510693 0.000000 35851.179044 7999458.718166 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:130 2.28e+03 8.61e+03 7.80e+03 2.67e-02 4.35e+04 2.05e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.385715e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.906408e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.498496e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.512343e-01
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.997808e+01
+[Thu 29. Nov 20:13:37 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.848851 -773.451980 1005.916558 1053.159816 0.000000 35894.577160 8003003.200646 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:131 2.28e+03 8.62e+03 7.81e+03 2.69e-02 4.31e+04 2.02e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.387640e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.928244e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.509255e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.478700e-01
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.964362e+01
+[Thu 29. Nov 20:13:37 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.844088 -773.484046 1005.963499 1053.881627 0.000000 35936.431341 8006324.983328 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:132 2.28e+03 8.63e+03 7.82e+03 2.71e-02 4.31e+04 2.00e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.389630e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.949639e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.519230e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.357110e-01
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.943313e+01
+[Thu 29. Nov 20:13:37 2018] Processing results ready
+[Thu 29. Nov 20:13:37 2018]  output:Ave Values = -2.840087 -773.512014 1006.006627 1054.676193 0.000000 35979.263559 8009598.332792 0.000000
+[Thu 29. Nov 20:13:37 2018]  output:133 2.29e+03 8.64e+03 7.83e+03 2.72e-02 4.14e+04 1.96e+06
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.391666e-02
+[Thu 29. Nov 20:13:37 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:37 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.970758e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.528226e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 9 Residual = 3.305320e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.922780e+01
+[Thu 29. Nov 20:13:38 2018] Processing results ready
+[Thu 29. Nov 20:13:38 2018]  output:Ave Values = -2.837152 -773.535910 1006.045569 1055.546713 0.000000 36020.675869 8012788.698651 0.000000
+[Thu 29. Nov 20:13:38 2018]  output:134 2.29e+03 8.65e+03 7.84e+03 2.72e-02 4.04e+04 1.94e+06
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.393774e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.991138e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.537149e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.248057e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.901846e+01
+[Thu 29. Nov 20:13:38 2018] Processing results ready
+[Thu 29. Nov 20:13:38 2018]  output:Ave Values = -2.835259 -773.555722 1006.081350 1056.486208 0.000000 36060.617960 8015834.772529 0.000000
+[Thu 29. Nov 20:13:38 2018]  output:135 2.29e+03 8.66e+03 7.85e+03 2.74e-02 3.98e+04 1.93e+06
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.395906e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.010587e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.546219e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 3.123920e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.885933e+01
+[Thu 29. Nov 20:13:38 2018] Processing results ready
+[Thu 29. Nov 20:13:38 2018]  output:Ave Values = -2.834218 -773.571927 1006.114195 1057.466718 0.000000 36101.209306 8018858.067716 0.000000
+[Thu 29. Nov 20:13:38 2018]  output:136 2.30e+03 8.67e+03 7.86e+03 2.74e-02 3.87e+04 1.92e+06
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.398027e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.029447e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.555679e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 3.086301e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.870440e+01
+[Thu 29. Nov 20:13:38 2018] Processing results ready
+[Thu 29. Nov 20:13:38 2018]  output:Ave Values = -2.833805 -773.585067 1006.144331 1058.458404 0.000000 36139.891348 8021781.905957 0.000000
+[Thu 29. Nov 20:13:38 2018]  output:137 2.30e+03 8.68e+03 7.87e+03 2.73e-02 3.77e+04 1.91e+06
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.400106e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.047501e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.565133e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 3.027272e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.848128e+01
+[Thu 29. Nov 20:13:38 2018] Processing results ready
+[Thu 29. Nov 20:13:38 2018]  output:Ave Values = -2.833912 -773.595607 1006.171685 1059.429456 0.000000 36177.488870 8024572.719378 0.000000
+[Thu 29. Nov 20:13:38 2018]  output:138 2.30e+03 8.69e+03 7.88e+03 2.72e-02 3.72e+04 1.90e+06
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.402093e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.064855e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.574529e-02
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.927330e-01
+[Thu 29. Nov 20:13:38 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:38 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.826795e+01
+[Thu 29. Nov 20:13:39 2018] Processing results ready
+[Thu 29. Nov 20:13:39 2018]  output:Ave Values = -2.834589 -773.604673 1006.196252 1060.351832 0.000000 36215.279423 8027306.215996 0.000000
+[Thu 29. Nov 20:13:39 2018]  output:139 2.30e+03 8.70e+03 7.89e+03 2.74e-02 3.61e+04 1.89e+06
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.403935e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.081275e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.584133e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.890372e-01
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.808806e+01
+[Thu 29. Nov 20:13:39 2018] Processing results ready
+[Thu 29. Nov 20:13:39 2018]  output:Ave Values = -2.835559 -773.612659 1006.218155 1061.200533 0.000000 36251.282477 8029940.285181 0.000000
+[Thu 29. Nov 20:13:39 2018]  output:140 2.31e+03 8.72e+03 7.90e+03 2.60e-02 3.54e+04 1.87e+06
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.405615e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.096473e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.593411e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.803234e-01
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.790547e+01
+[Thu 29. Nov 20:13:39 2018] Processing results ready
+[Thu 29. Nov 20:13:39 2018]  output:Ave Values = -2.836235 -773.617225 1006.237300 1061.973640 0.000000 36287.205697 8032544.767048 0.000000
+[Thu 29. Nov 20:13:39 2018]  output:141 2.31e+03 8.72e+03 7.91e+03 2.39e-02 3.47e+04 1.85e+06
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.407121e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.010000 Iterations = 10 Residual = 8.110826e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.602955e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.763747e-01
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.762700e+01
+[Thu 29. Nov 20:13:39 2018] Processing results ready
+[Thu 29. Nov 20:13:39 2018]  output:Ave Values = -2.836988 -773.620709 1006.253826 1062.661366 0.000000 36321.717240 8035040.936058 0.000000
+[Thu 29. Nov 20:13:39 2018]  output:142 2.31e+03 8.73e+03 7.92e+03 2.25e-02 3.38e+04 1.83e+06
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.408530e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.124061e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.612258e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.696649e-01
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.732892e+01
+[Thu 29. Nov 20:13:39 2018] Processing results ready
+[Thu 29. Nov 20:13:39 2018]  output:Ave Values = -2.837720 -773.623599 1006.268232 1063.281047 0.000000 36355.712476 8037453.083110 0.000000
+[Thu 29. Nov 20:13:39 2018]  output:143 2.31e+03 8.74e+03 7.93e+03 2.15e-02 3.30e+04 1.81e+06
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.409877e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.136386e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.621202e-02
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.600342e-01
+[Thu 29. Nov 20:13:39 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:39 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.708139e+01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:40 2018]  output:Ave Values = -2.838407 -773.626232 1006.280776 1063.850579 0.000000 36389.810600 8039854.084137 0.000000
+[Thu 29. Nov 20:13:40 2018]  output:144 2.32e+03 8.75e+03 7.93e+03 2.08e-02 3.23e+04 1.79e+06
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.411157e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.148000e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.630267e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.572204e-01
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.677374e+01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:40 2018]  output:Ave Values = -2.839048 -773.628771 1006.291639 1064.378905 0.000000 36422.250193 8042156.105788 0.000000
+[Thu 29. Nov 20:13:40 2018]  output:145 2.32e+03 8.76e+03 7.94e+03 2.00e-02 3.16e+04 1.76e+06
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 1.412348e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.158156e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.638915e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.510203e-01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.645317e+01
+[Thu 29. Nov 20:13:40 2018]  output:Ave Values = -2.839573 -773.631128 1006.300963 1064.870114 0.000000 36454.161417 8044383.644260 0.000000
+[Thu 29. Nov 20:13:40 2018]  output:146 2.32e+03 8.76e+03 7.95e+03 1.92e-02 3.08e+04 1.73e+06
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.413441e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 8.167571e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.647053e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.415669e-01
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.618374e+01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:40 2018]  output:Ave Values = -2.840097 -773.633126 1006.308919 1065.325762 0.000000 36486.172584 8046607.195314 0.000000
+[Thu 29. Nov 20:13:40 2018]  output:147 2.32e+03 8.77e+03 7.95e+03 1.85e-02 3.02e+04 1.70e+06
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.414444e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.176248e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.655229e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.391623e-01
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.586654e+01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:40 2018]  output:Ave Values = -2.840649 -773.634675 1006.315751 1065.746638 0.000000 36516.348782 8048739.251624 0.000000
+[Thu 29. Nov 20:13:40 2018]  output:148 2.32e+03 8.78e+03 7.96e+03 1.77e-02 2.94e+04 1.67e+06
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.415365e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.184262e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.662857e-02
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.332656e-01
+[Thu 29. Nov 20:13:40 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:40 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.555317e+01
+[Thu 29. Nov 20:13:40 2018] Processing results ready
+[Thu 29. Nov 20:13:41 2018]  output:Ave Values = -2.841271 -773.635749 1006.321627 1066.134611 0.000000 36545.911063 8050805.632518 0.000000
+[Thu 29. Nov 20:13:41 2018]  output:149 2.33e+03 8.78e+03 7.97e+03 1.70e-02 2.87e+04 1.64e+06
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.416215e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.191644e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.670136e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 9 Residual = 2.237995e-01
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.527219e+01
+[Thu 29. Nov 20:13:41 2018] Processing results ready
+[Thu 29. Nov 20:13:41 2018]  output:Ave Values = -2.841976 -773.636382 1006.326735 1066.491716 0.000000 36575.879053 8052888.656558 0.000000
+[Thu 29. Nov 20:13:41 2018]  output:150 2.33e+03 8.79e+03 7.97e+03 1.64e-02 2.82e+04 1.61e+06
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.417005e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.198291e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.677503e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.220884e-01
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.496557e+01
+[Thu 29. Nov 20:13:41 2018] Processing results ready
+[Thu 29. Nov 20:13:41 2018]  output:Ave Values = -2.842772 -773.636772 1006.331242 1066.819933 0.000000 36604.384840 8054912.429082 0.000000
+[Thu 29. Nov 20:13:41 2018]  output:151 2.33e+03 8.79e+03 7.98e+03 1.57e-02 2.75e+04 1.59e+06
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.417738e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.204205e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.684472e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.166504e-01
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.464310e+01
+[Thu 29. Nov 20:13:41 2018] Processing results ready
+[Thu 29. Nov 20:13:41 2018]  output:Ave Values = -2.843640 -773.637111 1006.335205 1067.121663 0.000000 36632.679324 8056898.612637 0.000000
+[Thu 29. Nov 20:13:41 2018]  output:152 2.33e+03 8.80e+03 7.98e+03 1.51e-02 2.69e+04 1.56e+06
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.418419e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.209389e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.691099e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.072106e-01
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.431543e+01
+[Thu 29. Nov 20:13:41 2018] Processing results ready
+[Thu 29. Nov 20:13:41 2018]  output:Ave Values = -2.844562 -773.637388 1006.338676 1067.399184 0.000000 36661.050065 8058896.695737 0.000000
+[Thu 29. Nov 20:13:41 2018]  output:153 2.33e+03 8.80e+03 7.98e+03 1.46e-02 2.65e+04 1.53e+06
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.419054e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.214580e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 7.697847e-02
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.053897e-01
+[Thu 29. Nov 20:13:41 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:41 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.400257e+01
+[Thu 29. Nov 20:13:41 2018] Processing results ready
+[Thu 29. Nov 20:13:42 2018]  output:Ave Values = -2.845538 -773.637585 1006.341746 1067.654368 0.000000 36687.197950 8060794.438716 0.000000
+[Thu 29. Nov 20:13:42 2018]  output:154 2.33e+03 8.81e+03 7.99e+03 1.41e-02 2.55e+04 1.49e+06
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.419645e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.219199e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.003000 Iterations = 10 Residual = 7.704312e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 2.004706e-01
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.366346e+01
+[Thu 29. Nov 20:13:42 2018] Processing results ready
+[Thu 29. Nov 20:13:42 2018]  output:Ave Values = -2.846546 -773.637815 1006.344473 1067.888698 0.000000 36712.609203 8062622.402871 0.000000
+[Thu 29. Nov 20:13:42 2018]  output:155 2.33e+03 8.81e+03 7.99e+03 1.37e-02 2.48e+04 1.46e+06
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.420190e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.223687e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.710425e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.931671e-01
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.329007e+01
+[Thu 29. Nov 20:13:42 2018] Processing results ready
+[Thu 29. Nov 20:13:42 2018]  output:Ave Values = -2.847554 -773.638219 1006.346888 1068.102756 0.000000 36737.811813 8064406.308242 0.000000
+[Thu 29. Nov 20:13:42 2018]  output:156 2.33e+03 8.81e+03 8.00e+03 1.35e-02 2.42e+04 1.42e+06
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.420685e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.228290e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 10 Residual = 7.716337e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.901473e-01
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.299711e+01
+[Thu 29. Nov 20:13:42 2018] Processing results ready
+[Thu 29. Nov 20:13:42 2018]  output:Ave Values = -2.848515 -773.639344 1006.349029 1068.295417 0.000000 36761.765209 8066141.807143 0.000000
+[Thu 29. Nov 20:13:42 2018]  output:157 2.34e+03 8.82e+03 8.00e+03 1.36e-02 2.35e+04 1.38e+06
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 1
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.421122e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 2
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 10 Residual = 8.232463e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 3
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 10 Residual = 7.721891e-02
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 4
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 6
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.000000 Iterations = 9 Residual = 1.830534e-01
+[Thu 29. Nov 20:13:42 2018]  output:solving kPhi 7
+[Thu 29. Nov 20:13:42 2018]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 1.271351e+01
+[Thu 29. Nov 20:13:42 2018] Processing results ready
+[Thu 29. Nov 20:13:42 2018]  output:Ave Values = -2.849411 -773.641584 1006.350905 1068.460903 0.000000 36785.453593 8067856.921696 0.000000
+[Thu 29. Nov 20:13:42 2018]  output:158 2.34e+03 8.82e+03 8.00e+03 1.38e-02 2.30e+04 1.35e+06
+[Thu 29. Nov 20:13:42 2018]  output:Flat lines detected in Convergence Monitor - Auto Stop.
+[Thu 29. Nov 20:13:43 2018] Processing solver exited
+[Thu 29. Nov 20:13:43 2018]  output:Ave Values = -2.849411 -773.641584 1006.350905 1068.460903 0.000000 36785.453593 8067856.921696 0.000000
+[Thu 29. Nov 20:13:43 2018]  output:solver has finished exit code=0
+[Thu 29. Nov 20:13:43 2018]  output:C:\Program Files\Autodesk\CFD 2019>set E=0
+[Thu 29. Nov 20:13:43 2018]  output:C:\Program Files\Autodesk\CFD 2019>exit 0
+[Thu 29. Nov 20:13:43 2018] Job finished with exit code = 0
+[Thu 29. Nov 20:13:43 2018] Task finished in 34.37 sec
+[Thu 29. Nov 20:13:43 2018] Starting task: Stop Notifications
+[Thu 29. Nov 20:13:43 2018] Stopping mail server
+[Thu 29. Nov 20:13:43 2018] Mail server has stopped
+[Thu 29. Nov 20:13:43 2018] Stopping mail server thread
+[Thu 29. Nov 20:13:43 2018] Mail server thread has stopped
+[Thu 29. Nov 20:13:43 2018] Task finished in 0.00 sec
+[Thu 29. Nov 20:13:43 2018] Starting task: Stop Messaging
+[Thu 29. Nov 20:13:43 2018] Stopping messaging
+[Thu 29. Nov 20:13:43 2018] Task finished in 0.00 sec
+[Thu 29. Nov 20:13:43 2018] Finished processing tasks in 34.37 sec

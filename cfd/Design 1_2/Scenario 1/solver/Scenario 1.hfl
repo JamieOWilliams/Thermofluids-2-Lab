@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wall_Heat_Flux_Data>
+    <Units>cm</Units>
+    <Surfaces>
+        <this_surface_data id="1" external="yes">
+            <area>120.78</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="2" external="yes">
+            <area>55</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="3" external="yes">
+            <area>55</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="4" external="yes">
+            <area>224.508</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="5" external="no">
+            <area>50</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="6" external="yes">
+            <area>16</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="7" external="no">
+            <area>50</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="8" external="no">
+            <area>117.634</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="9" external="no">
+            <area>75</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="10" external="yes">
+            <area>169.204</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="11" external="yes">
+            <area>82.5</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="12" external="yes">
+            <area>169.203</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="13" external="yes">
+            <area>81.7346</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="14" external="yes">
+            <area>3.12617</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="15" external="no">
+            <area>140.954</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="16" external="no">
+            <area>196.232</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="17" external="no">
+            <area>140.954</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="18" external="yes">
+            <area>16</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="19" external="yes">
+            <area>0.397867</area>
+            <part_context>leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="20" external="no">
+            <area>73.6967</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="21" external="no">
+            <area>2.62123</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="22" external="no">
+            <area>1.32482</area>
+            <part_context>entering_part(2)_leaving_part(1)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="23" external="yes">
+            <area>50</area>
+            <part_context>leaving_part(2)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="24" external="yes">
+            <area>50</area>
+            <part_context>leaving_part(2)[0]</part_context>
+        </this_surface_data>
+        <this_surface_data id="25" external="yes">
+            <area>0.3675</area>
+            <part_context>leaving_part(2)[0]</part_context>
+        </this_surface_data>
+    </Surfaces>
+    <Parts>
+        <this_part_data id="1" number_of_surfaces="22">
+            <volume>450.891</volume>
+            <heat_flow_rate>nan</heat_flow_rate>
+            <heat_flow_direction>leaving_part</heat_flow_direction>
+        </this_part_data>
+        <this_part_data id="2" number_of_surfaces="13">
+            <volume>1410.86</volume>
+            <heat_flow_rate>nan</heat_flow_rate>
+            <heat_flow_direction>leaving_part</heat_flow_direction>
+        </this_part_data>
+    </Parts>
+</Wall_Heat_Flux_Data>

@@ -1,0 +1,34 @@
+<cfd_design_studies version="19.1.20180819" user_name="mail">
+ <design_study instance_id="id_not_defined" name="NewRectTube" folder="C:/Users/mail/Desktop/Thermofluids 2 Lab/NewRectTube" study_id="d7c42f1e-02a2-45ef-8c75-4554fcde1683">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" name="Design 1" model_id="RecTubeNew.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_1" model_id="RecTubeNewTapping.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_2" model_id="RecTubeNewTappingChamfer.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_3" model_id="RecTubeNewTapping.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_4" model_id="RecTubeNewTappingChamfer.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_5" model_id="RecTubeNewTapping.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_6" model_id="RecTubeNew.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_7" model_id="RecTubeNewTapping.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_8" model_id="RecTubeNewTappingChamfer.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+  <design launcher_type="CP_UNKNOWN" name="Design 1_9" model_id="RecTubeNewTappingAngle.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

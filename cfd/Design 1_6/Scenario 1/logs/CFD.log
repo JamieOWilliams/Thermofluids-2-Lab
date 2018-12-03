@@ -1,0 +1,488 @@
+[13:12:29] Cannot find a flags file
+[13:12:29] Loading qm files
+[13:12:29] System language is English
+[13:12:30] Completed pre-event loop tasks in 0.258 sec
+[13:12:30] Start processing tasks
+[13:12:30] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[13:12:30] Creating main view...
+[13:12:30] Creating actions...
+[13:12:30] Creating quick widgets...
+[13:12:30] Creating panel...
+[13:12:30] Creating status bar...
+[13:12:30] Creating tool bar...
+[13:12:30] Initializing menu...
+[13:12:30] Task finished in 0.255 sec
+[13:12:30] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[13:12:30] Task finished in 0.466 sec
+[13:12:31] Starting task: Clt::InitializationTasks::initializeWebServices
+[13:12:32] Task finished in 1.099 sec
+[13:12:32] Starting task: Clt::InitializationTasks::initializeAirLook
+[13:12:33] Task finished in 1.155 sec
+[13:12:33] Starting task: Clt::InitializationTasks::initializeServerGroup
+[13:12:33] Task finished in 0.001 sec
+[13:12:33] Starting task: Clt::InitializationTasks::initializeHelpManager
+[13:12:33] Task finished in 0 sec
+[13:12:33] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[13:12:33] Task finished in 0.165 sec
+[13:12:33] Starting task: Clt::InitializationTasks::assignShortcuts
+[13:12:33] Task finished in 0 sec
+[13:12:33] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[13:12:33] Task finished in 0.001 sec
+[13:12:33] Starting task: Clt::InitializationTasks::initializeGAT
+[13:12:33] Task finished in 0 sec
+[13:12:33] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[13:12:33] Task finished in 0.003 sec
+[13:12:33] Starting task: Clt::InitializationTasks::initializeLicensing
+[13:12:33] Creating license manager...
+[13:12:33] Initializing license manager...
+[13:12:34] Checking out UI license...
+[13:12:34] Authorizing CFD UI...
+[13:12:35] Checking out Motion license...
+[13:12:35] Authorizing CFD Motion...
+[13:12:37] Releasing CFD Motion...
+[13:12:37] License path is
+[13:12:37] Task finished in 3.519 sec
+[13:12:37] Starting task: Clt::InitializationTasks::checkForLicensingError
+[13:12:37] Task finished in 0 sec
+[13:12:37] Starting task: Clt::InitializationTasks::showMainWindow
+[13:12:37] Loading layout...
+[13:12:37] Task finished in 0.149 sec
+[13:12:37] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[13:12:37] Task finished in 0.066 sec
+[13:12:37] Starting task: Clt::InitializationTasks::hideSplashScreen
+[13:12:37] Task finished in 0.001 sec
+[13:12:37] Starting task: Clt::InitializationTasks::initializeCustomResults
+[13:12:37] Task finished in 0 sec
+[13:12:37] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[13:12:37] Task finished in 0 sec
+[13:12:37] Starting task: Clt::InitializationTasks::initializePythonHooks
+[13:12:37] Loading CFD resource file...
+[13:12:37] Task finished in 0.051 sec
+[13:12:37] Starting task: Clt::InitializationTasks::runScript
+[13:12:37] Task finished in 0 sec
+[13:12:37] Finished processing tasks in 7.473 sec
+[13:13:46] External fragmentation is 0
+[13:13:46] Internal fragmentation is 0.0454447
+[13:13:46] External fragmentation is 0
+[13:13:46] Internal fragmentation is 0.253668
+[13:13:47] External fragmentation is 0.0777778
+[13:13:47] Internal fragmentation is 0.0546316
+[13:13:47] External fragmentation is 0
+[13:13:47] Internal fragmentation is 0.0614227
+[13:13:47] External fragmentation is 0.0443772
+[13:13:47] Internal fragmentation is 0.0143973
+[13:13:47] External fragmentation is 0
+[13:13:47] Internal fragmentation is 0.0662842
+[13:13:48] External fragmentation is 0.0451165
+[13:13:48] Internal fragmentation is 0.0154678
+[13:13:48] External fragmentation is 0.0875
+[13:13:48] Internal fragmentation is 0.0738759
+[13:13:48] External fragmentation is 0.0392482
+[13:13:48] Internal fragmentation is 0.016719
+[13:13:48] External fragmentation is 0
+[13:13:48] Internal fragmentation is 0.0748337
+[13:13:49] External fragmentation is 0.0261866
+[13:13:49] Internal fragmentation is 0.015191
+[13:13:49] External fragmentation is 0
+[13:13:49] Internal fragmentation is 0.0738759
+[13:13:49] External fragmentation is 0
+[13:13:49] Internal fragmentation is 0.137864
+[13:13:50] External fragmentation is 0
+[13:13:50] Internal fragmentation is 0.0683112
+[13:13:50] External fragmentation is 0.0641628
+[13:13:50] Internal fragmentation is 0.041726
+[13:13:50] External fragmentation is 0
+[13:13:50] Internal fragmentation is 0.074791
+[13:13:51] External fragmentation is 0.0395103
+[13:13:51] Internal fragmentation is 0.0156301
+[13:13:51] External fragmentation is 0
+[13:13:51] Internal fragmentation is 0.0748322
+[13:13:51] External fragmentation is 0.0460327
+[13:13:51] Internal fragmentation is 0.0170153
+[13:13:52] External fragmentation is 0
+[13:13:52] Internal fragmentation is 0.0736374
+[13:13:52] External fragmentation is 0.0461685
+[13:13:52] Internal fragmentation is 0.0139359
+[13:13:52] CFD Motion is not authorized, nothing to release
+[13:13:52] CADModel::loadGeometryDatabase = 0.067 sec
+[13:13:53] VizDataInterface::getBoundaryFEData = 0.011 sec
+[13:13:53] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:14:01] CADModel::loadGeometryDatabase = 0.056 sec
+[13:14:01] VizDataInterface::getBoundaryFEData = 0.009 sec
+[13:14:01] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:20:48] CADModel::loadGeometryDatabase = 0.016 sec
+[13:20:48] VizDataInterface::getBoundaryFEData = 0.003 sec
+[13:20:48] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:22:16] CADModel::loadGeometryDatabase = 0.064 sec
+[13:22:17] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:22:17] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:22:22] CADModel::loadGeometryDatabase = 0.06 sec
+[13:22:23] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:22:23] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:22:26] CADModel::loadGeometryDatabase = 0.054 sec
+[13:22:26] VizDataInterface::getBoundaryFEData = 0.011 sec
+[13:22:26] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:22:35] CADModel::loadGeometryDatabase = 0.05 sec
+[13:22:35] VizDataInterface::getBoundaryFEData = 0.009 sec
+[13:22:35] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:24:11] CADModel::loadGeometryDatabase = 0.016 sec
+[13:24:11] VizDataInterface::getBoundaryFEData = 0.003 sec
+[13:24:11] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:26:18] CADModel::loadGeometryDatabase = 0.047 sec
+[13:26:18] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:26:18] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:27:20] CADModel::loadGeometryDatabase = 0.055 sec
+[13:27:20] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:27:20] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:38:28] CADModel::loadGeometryDatabase = 0.048 sec
+[13:38:28] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:38:28] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:42:55] CADModel::loadGeometryDatabase = 0.056 sec
+[13:42:56] VizDataInterface::getBoundaryFEData = 0.011 sec
+[13:42:56] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:43:02] CADModel::loadGeometryDatabase = 0.055 sec
+[13:43:02] VizDataInterface::getBoundaryFEData = 0.011 sec
+[13:43:02] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:43:08] CADModel::loadGeometryDatabase = 0.059 sec
+[13:43:08] VizDataInterface::getBoundaryFEData = 0.012 sec
+[13:43:08] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:43:11] CADModel::loadGeometryDatabase = 0.059 sec
+[13:43:11] VizDataInterface::getBoundaryFEData = 0.012 sec
+[13:43:11] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:43:14] CADModel::loadGeometryDatabase = 0.051 sec
+[13:43:14] VizDataInterface::getBoundaryFEData = 0.013 sec
+[13:43:14] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:43:16] CADModel::loadGeometryDatabase = 0.056 sec
+[13:43:16] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:43:16] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:43:28] CADModel::loadGeometryDatabase = 0.015 sec
+[13:43:28] VizDataInterface::getBoundaryFEData = 0.003 sec
+[13:43:28] VizDataInterface::setupWallOutlineData = 0 sec
+[13:43:33] CADModel::loadGeometryDatabase = 0.054 sec
+[13:43:34] VizDataInterface::getBoundaryFEData = 0.011 sec
+[13:43:34] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:43:40] CADModel::loadGeometryDatabase = 0.046 sec
+[13:43:40] VizDataInterface::getBoundaryFEData = 0.008 sec
+[13:43:40] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:43:46] CADModel::loadGeometryDatabase = 0.064 sec
+[13:43:46] VizDataInterface::getBoundaryFEData = 0.012 sec
+[13:43:46] VizDataInterface::setupWallOutlineData = 0.002 sec
+[13:49:55] CADModel::loadGeometryDatabase = 0.048 sec
+[13:49:55] VizDataInterface::getBoundaryFEData = 0.01 sec
+[13:49:55] VizDataInterface::setupWallOutlineData = 0.001 sec
+[13:50:00] CADModel::loadGeometryDatabase = 0.066 sec
+[13:50:00] VizDataInterface::getBoundaryFEData = 0.013 sec
+[13:50:00] VizDataInterface::setupWallOutlineData = 0.001 sec
+[14:13:42] CADModel::loadGeometryDatabase = 0.058 sec
+[14:13:43] VizDataInterface::getBoundaryFEData = 0.011 sec
+[14:13:43] VizDataInterface::setupWallOutlineData = 0.002 sec
+[14:13:45] CADModel::loadGeometryDatabase = 0.014 sec
+[14:13:45] VizDataInterface::getBoundaryFEData = 0.004 sec
+[14:13:45] VizDataInterface::setupWallOutlineData = 0 sec
+[14:15:10] CADModel::loadGeometryDatabase = 0.056 sec
+[14:15:11] VizDataInterface::getBoundaryFEData = 0.012 sec
+[14:15:11] VizDataInterface::setupWallOutlineData = 0.001 sec
+[14:15:14] CADModel::loadGeometryDatabase = 0.06 sec
+[14:15:15] VizDataInterface::getBoundaryFEData = 0.013 sec
+[14:15:15] VizDataInterface::setupWallOutlineData = 0.001 sec
+[14:15:16] CADModel::loadGeometryDatabase = 0.047 sec
+[14:15:16] VizDataInterface::getBoundaryFEData = 0.009 sec
+[14:15:16] VizDataInterface::setupWallOutlineData = 0.001 sec
+[14:15:24] CADModel::loadGeometryDatabase = 0.015 sec
+[14:15:24] VizDataInterface::getBoundaryFEData = 0.004 sec
+[14:15:24] VizDataInterface::setupWallOutlineData = 0 sec
+[15:42:54] Analysis::writeGBIFile = 0.026 sec
+[15:42:54] Analysis::exportJobFiles = 0.005 sec
+[15:42:54] NewRectTube/Design 1_6/Scenario 1 job started at Sun 2. Dec 15:42:54 2018 on DESKTOP-7GSFCRT
+[15:42:55] NewRectTube/Design 1_6/Scenario 1 solver started at Sun 2. Dec 15:42:55 2018 on DESKTOP-7GSFCRT
+[15:42:57] getJobUpdate start
+[15:42:57] CADModel::loadGeometryDatabase = 0.018 sec
+[15:42:57] VizDataInterface::getBoundaryFEData = 0.005 sec
+[15:42:57] VizDataInterface::setupWallOutlineData = 0 sec
+[15:43:01] getJobUpdate finished
+[15:43:01] getJobUpdate start
+[15:43:01] getJobUpdate finished
+[15:43:01] getJobUpdate start
+[15:43:01] getJobUpdate finished
+[15:43:01] getJobUpdate start
+[15:43:01] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:02] getJobUpdate finished
+[15:43:02] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:03] getJobUpdate finished
+[15:43:03] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:04] getJobUpdate finished
+[15:43:04] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:05] getJobUpdate start
+[15:43:05] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:06] getJobUpdate finished
+[15:43:06] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:07] getJobUpdate finished
+[15:43:07] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:08] getJobUpdate start
+[15:43:08] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:09] getJobUpdate finished
+[15:43:09] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:10] getJobUpdate finished
+[15:43:10] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:11] getJobUpdate finished
+[15:43:11] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:12] getJobUpdate finished
+[15:43:12] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:13] getJobUpdate start
+[15:43:13] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:14] getJobUpdate finished
+[15:43:14] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:15] getJobUpdate start
+[15:43:15] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:16] getJobUpdate finished
+[15:43:16] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:17] getJobUpdate start
+[15:43:17] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:18] getJobUpdate finished
+[15:43:18] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:19] getJobUpdate finished
+[15:43:19] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:20] getJobUpdate start
+[15:43:20] getJobUpdate finished
+[15:43:21] getJobUpdate start
+[15:43:21] getJobUpdate finished
+[15:43:21] getJobUpdate start
+[15:43:21] getJobUpdate finished
+[15:43:21] getJobUpdate start
+[15:43:21] getJobUpdate finished
+[15:43:21] NewRectTube/Design 1_6/Scenario 1 solver finished at Sun 2. Dec 15:43:21 2018 on DESKTOP-7GSFCRT with code = 0
+[15:43:21] Analysis::importSolverFiles = 0.013 sec

@@ -1,0 +1,19 @@
+<CFD_JobInformation version="19.1">
+ <analysisPath>C:\Users\mail\Desktop\Thermofluids 2 Lab\NewRectTube\Design 1_7\Scenario 1</analysisPath>
+ <meshFlag>Y</meshFlag>
+ <jobType>LOCAL</jobType>
+ <isClusterJob>false</isClusterJob>
+ <cores>0</cores>
+ <jobArgs></jobArgs>
+ <profile>MyComputer</profile>
+ <owner>mail</owner>
+ <UIHost>DESKTOP-7GSFCRT</UIHost>
+ <solveHost>DESKTOP-7GSFCRT</solveHost>
+ <portalId></portalId>
+ <portalPwd></portalPwd>
+ <recipients></recipients>
+ <notifyStart>false</notifyStart>
+ <notifyMesh>false</notifyMesh>
+ <notifyDone>false</notifyDone>
+ <useLocalSmpd>false</useLocalSmpd>
+</CFD_JobInformation>

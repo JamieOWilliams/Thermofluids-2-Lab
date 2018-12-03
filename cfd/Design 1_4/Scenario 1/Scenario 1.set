@@ -1,0 +1,95 @@
+CFD 2019 Analysis Setup
+Length Units: cm
+Coordinate System: XYZ
+
+
+Geometry Operations:
+
+Step 1      Build surface
+
+     Selected edges for building surface: 
+         50
+
+Step 2      Build surface
+
+     Selected edges for building surface: 
+         27,
+         33,
+         48,
+         38
+
+Step 3      Build surface
+
+     Selected edges for building surface: 
+         3,
+         19,
+         7,
+         20
+
+Step 4      Fill void part
+
+     Number of new parts added: 1
+ 
+ 
+Materials:
+   2 ***Solid*** Aluminum
+      Assigned to:
+         1 Part1.Solid1
+      Properties:
+     Density Constant 2.707 g/cm3
+     Specific heat Constant 0.896 J/g-K
+     Emissivity Constant 0.2
+     Transmissivity Constant 0
+     Wall roughness Constant 0 centimeter
+     X-Direction Constant 2.04 W/cm-K
+     Y-Direction Same as X-dir.
+     Z-Direction Same as X-dir.
+     Electrical resistivity Constant 2.7e-06 ohm-cm
+   3 ***Fluid*** Air
+      Assigned to:
+         2 CFDCreatedVolume
+      Properties:
+     Reference Pressure: 1.01325e+06 dyne/cm2
+     Reference Temperature: 19.85 Celsius
+     Gas Constant: 2.8705e+06 cm2/s2-K
+     Density Equation of State
+     Viscosity Constant 0.0001817 poise
+     Conductivity Constant 0.0002563 W/cm-K
+     Compressibility Constant 1.4
+     Specific heat Constant 1.004 J/g-K
+     Emissivity Constant 1
+     Wall roughness Constant 0 centimeter
+ 
+ 
+Motions:
+     ---None---
+ 
+ 
+Boundary Conditions:
+   Boundaries:
+      #20 Surface
+         Velocity Normal(0 m/s)
+      #21 Surface
+         Pressure(0 Pa Gage)
+      #22 Surface
+         Velocity Normal(20 m/s)
+   Regions:
+      ---None---
+ 
+ 
+Initial Conditions:
+   Boundaries:
+      ---None---
+   Regions:
+      ---None---
+ 
+ 
+Mesh Sizes:
+ Automatic mesh sizing: 
+   Global resolution: 1.000
+   Local stretching: 1.100
+   Minimum points/edge:     2
+   Points on longest edge:    10
+   Surface limiting aspect ratio:    20
+
+
